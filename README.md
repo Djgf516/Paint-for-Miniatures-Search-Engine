@@ -4,7 +4,7 @@ The useful tool to compare model paints and find similar colors using tables pro
 
 Reference tables: 
 
-<a href= "https://www.dakkadakka.com/wiki/en/paint_range_compatibility_chart"> Dakka Paint Range Compatibility Chart </a>
+<a href= "https://www.dakkadakka.com/wiki/en/paint_range_compatibility_chart"> Dakka models.InfoPaint Range Compatibility Chart </a>
 
 <a href= "https://redgrimm.github.io/paint-conversion/p3.html"> Redgrim P3 Formula </a>
 
@@ -24,7 +24,7 @@ When you click on a paint show the name and colors like it
 
 Potential Features
 Color Wheel
-Filter by brand like the amazon paint site. <a href= https://www.amazon.com/paint-finder > Amazon Paint Finder </a>
+Filter by brand like the amazon paint site. <a href= https://www.amazon.com/paint-finder > Amazon models.InfoPaint Finder </a>
 Display all the colors of that brand in the database
 show/compare colors on an example model (wayyy more complex)
 
@@ -84,18 +84,18 @@ Phase II. Think about how the classes from Question 1 are going to be created,
 	    updated, or removed.
 
 When the application Starts:
-*Database is loaded
+*controller.ReadDatabasePaints is loaded
 *Classes are loaded but not doing anything yet
 *SearchBar is displayed 
 
 When the application is running:
-*User can search by Paint Name, Brand Name, Hexdecimal, OR Color (ie. red blue white, etc.)
+*User can search by models.InfoPaint Name, Brand Name, Hexdecimal, OR Color (ie. red blue white, etc.)
 *If the search was a paint name, view all the Matches Color Class
 *If the search was a brand name, list all the colors from that brand up to 25 values
-*If the search was a color, list all the InfoPaints that contain that color name up to 25
-*If the search was a hexdecimal, list all the InfoPaints that contain exactly that hexdecimal up to 25
+*If the search was a color, list all the models.InfoPaint that contain that color name up to 25
+*If the search was a hexdecimal, list all the models.InfoPaint that contain exactly that hexdecimal up to 25
 *User can click on a paint name to display the Matches Color Class
-*Database will not be updated when program is running. 
+*controller.ReadDatabasePaints will not be updated when program is running. 
 
 
 Phase III.
@@ -103,13 +103,13 @@ Method Protypes
 
 Class PaintSearchBar{
   void initialize();      //Load the database and the classes
-  void addPaintInfo       // Add a indvidual Paint Value (For testing only)
-  void addListRelatedColors  // Add an indvidual Paint List of related colors (for testing only )
+  void addPaintInfo       // Add a indvidual models.InfoPaint Value (For testing only)
+  void addListRelatedColors  // Add an indvidual models.InfoPaint List of related colors (for testing only )
   void startSearch       // Start the search Bar
   Search paintName      // Show the Matches Color Class
-  Search brandName      //Show 25 values of the Paint Info with that brand name
-  Search Color          //Show 25 values of the Paint Info with that exact color name
-  Search hexdecimal      //Show 25 values of the Paint Info with a partial or complete match of that hexidecimal
+  Search brandName      //Show 25 values of the models.InfoPaint Info with that brand name
+  Search Color          //Show 25 values of the models.InfoPaint Info with that exact color name
+  Search hexdecimal      //Show 25 values of the models.InfoPaint Info with a partial or complete match of that hexidecimal
   Click paint name      // Show the Matches Color Class
 
 }
