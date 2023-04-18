@@ -1,4 +1,4 @@
-# PaintComparisonTool
+# Paint for Miniatures Search Engine 
 
 The useful tool to compare model paints and find similar colors using tables provided by the community
 
