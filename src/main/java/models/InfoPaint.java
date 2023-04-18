@@ -72,7 +72,7 @@ public class InfoPaint {
 
     @Override
     public String toString() {
-        return  paintName + ", " + brandName + ", " +
+        return  paintName + ", " + brandName +
                 ", hexColorCode: " + hexColorCode +
                 ", matchValue: " + matchValue;
     }

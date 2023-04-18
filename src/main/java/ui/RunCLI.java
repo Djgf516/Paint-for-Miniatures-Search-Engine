@@ -18,17 +18,15 @@ import java.util.Scanner;
 public class RunCLI{
 
     public static void main(String[] args) {
-        //SearchBarDriver searchBar = new SearchBarDriver();
-        //searchBar.run();
-        // No exception is raised here because File doesn't attempt to open a file
-        // Regardless of whether the file exists or not.
+        SearchBarDriver searchBar = new SearchBarDriver();
+        searchBar.run();
+
 
 
     }}
 
 
 
-    ///Copy of database.Paint.Comparer.v01. - Citadel.csv
 
 
 

@@ -18,15 +18,14 @@ public class ReadDatabasePaints {
     // PlaceHolder
     //------------------------------------------------------------
     File input = new File("Test.csv");
-    public static void main(String... args) {
-        List<InfoPaint> books = readPaintFromCSV("Test.csv");
-
-        // let's print all the paint read from CSV file
-        for (InfoPaint b : books) {
-            System.out.println(b);
-        }
-    }
-
+//    public static void main(String... args) {
+//        List<InfoPaint> infoPaints = readPaintFromCSV("Test.csv");
+//
+//        // let's print all the paint read from CSV file
+//        for (InfoPaint b : infoPaints) {
+//            System.out.println(b);
+//        }
+//    }
 
 
     public static List<InfoPaint> readPaintFromCSV(String fileName) {
@@ -48,16 +47,6 @@ public class ReadDatabasePaints {
                 // the file, using a comma as the delimiter
                 String[] attributes = line.split(",");
 
-                int attributelength = attributes.length;
-
-//                String [] splitSmallArray = Arrays.copyOfRange(attributes, 0 , 2);
-//                String [] splitLargeArrayOne = Arrays.copyOfRange(attributes,3, 6);
-//                String [] splitLargeArrayTwo = Arrays.copyOfRange(attributes,7, 10);
-//                String [] splitLargeArrayThree = Arrays.copyOfRange(attributes,11, 14);
-//                String [] splitLargeArrayFour = Arrays.copyOfRange(attributes,15, 18);
-//
-
-                //
                 if (attributes.length == 19) {
 
                     // Comparison Paint Column (the other colors are match value is to this one)
@@ -84,18 +73,15 @@ public class ReadDatabasePaints {
                 }
 
 
-
-
-
                 // read next line before looping
                 // if end of file reached, line would be null
                 line = br.readLine();
             }
 
-        } catch (ArrayIndexOutOfBoundsException e){
+        } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Poorly formated line in input file");
 
-        } catch (FileNotFoundException e){
+        } catch (FileNotFoundException e) {
             System.out.println("File not found.");
         } catch (IOException ioe) {
             ioe.printStackTrace();
@@ -106,9 +92,8 @@ public class ReadDatabasePaints {
 
     private static InfoPaint createInfoPaint(String[] paintData) {
         String namePaint = paintData[0];
-       String brandName = paintData[1];
+        String brandName = paintData[1];
         String hexdecimal = paintData[2];
-
 
 
         // create and return paint of this data
@@ -120,7 +105,6 @@ public class ReadDatabasePaints {
         String brandName = paintData[4];
         String hexdecimal = paintData[5];
         String matchNumber = paintData[6];
-
 
 
         // create and return paint of this data
@@ -135,7 +119,6 @@ public class ReadDatabasePaints {
         String matchNumber = paintData[10];
 
 
-
         // create and return paint of this data
         return new InfoPaint(namePaint, brandName, hexdecimal, matchNumber);
     }
@@ -148,7 +131,6 @@ public class ReadDatabasePaints {
         String matchNumber = paintData[14];
 
 
-
         // create and return book of this metadata
         return new InfoPaint(namePaint, brandName, hexdecimal, matchNumber);
     }
@@ -158,7 +140,6 @@ public class ReadDatabasePaints {
         String brandName = paintData[16];
         String hexdecimal = paintData[17];
         String matchNumber = paintData[18];
-
 
 
         // create and return book of this metadata

@@ -8,8 +8,7 @@ import ui.*;
 
 import java.util.*;
 
-
-
+import static controller.ReadDatabasePaints.readPaintFromCSV;
 
 
 public class SearchBarDriver {
@@ -17,90 +16,62 @@ public class SearchBarDriver {
     public String choice = "";
 
 
-    //------------------------------------------------------------
-    // Test Items (Before adding in the database)
-    //------------------------------------------------------------
-    InfoPaint deadWhite = new InfoPaint("Dead White","Vallejo", "ffffff");
-    InfoPaint white = new InfoPaint("White", "Vallejo - Model", "ffffff");
-    InfoPaint whiteScar = new InfoPaint("White Scar ", "Citadel", "ffffff");
-    InfoPaint morrowWhite = new InfoPaint("Morrow White", "P3 Formula", "FEFBFD");
-    InfoPaint mattWhite = new InfoPaint("Matt White", "Army Painter", "ffffff");
-
-
-    List<InfoPaint> listDeadWhite = new ArrayList() {{
-        add(white);
-        add(whiteScar);
-        add(morrowWhite);
-        add(mattWhite);
-    }};
-
-    List<InfoPaint> listWhite = new ArrayList() {{
-        add(deadWhite);
-        add(whiteScar);
-        add(morrowWhite);
-        add(mattWhite);
-    }};
-
-    List<InfoPaint> listWhiteScar = new ArrayList() {{
-        add(deadWhite);
-        add(white);
-        add(morrowWhite);
-        add(mattWhite);
-    }};
-
-
-
-    ListRelatedPaints deadWhiteRelatedPaints = new ListRelatedPaints(deadWhite.getPaintName(), listDeadWhite);
-    ListRelatedPaints whiteRelatedPaints = new ListRelatedPaints(white.getPaintName(), listWhite);
-    ListRelatedPaints whiteScareRelatedPaints = new ListRelatedPaints(whiteScar.getPaintName(), listWhiteScar);
-
-
-
 
     //------------------------------------------------------------
     // Start Search bar
     //------------------------------------------------------------
+    private List<InfoPaint> infoPaints = readPaintFromCSV("Test.csv");
 
-    public void run(){
+    private int paintNameCounter =0;
+    private int paintBrandCounter =0;
+    private int paintHexCounter =0;
 
+    public void run() {
+        // let's print all the paint read from CSV file
 
+            while (true) {
+                //Welcome the User to the program
+                UserInput.displayHomeScreen();
 
-        while (true){
-            //Welcome the User to the program
-            UserInput.displayHomeScreen();
+//                for (InfoPaint b : infoPaints) {
+//                   System.out.println(b);}
 
-            //Get the user search option
-            choice = UserInput.getSearchOption();
+                //Get the user search option
+                choice = UserInput.getSearchOption();
 
-            System.out.println( nameSearch(choice));
+           System.out.println( nameSearch(choice));
 
-
-        }
-    }
-
-    public ListRelatedPaints nameSearch (String option) {
-
-        ListRelatedPaints search = null;
-
-
-      if (option.trim().equalsIgnoreCase(deadWhite.getPaintName())){
-
-          search= deadWhiteRelatedPaints;
+            }
         }
 
+    public  InfoPaint nameSearch (String option) {
 
-        return deadWhiteRelatedPaints;
+        InfoPaint search = null;
+
+        for (InfoPaint currentPaint : infoPaints){
+
+            //Search the Paint name return 1 value
+
+            if (option.trim().equalsIgnoreCase(currentPaint.getPaintName())){
+
+                search= currentPaint;
+            }
+
+            if (option.trim().equalsIgnoreCase(currentPaint.getBrandName())){
+
+                search= currentPaint;
+            }
+
+        }
+
+
+        return search;
 
     }
 
 
+    }
 
-
-
-
-
-
-}
 
 
 
