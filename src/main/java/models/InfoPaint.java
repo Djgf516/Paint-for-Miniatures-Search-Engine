@@ -7,8 +7,9 @@ public class InfoPaint {
     //------------------------------------------------------------
     // Holds Brand Name and models.Paint Information
     //------------------------------------------------------------
+    private static int paintIdCounter = 0;
 
-
+    private int paintId;
     private String paintName;
     private String brandName;
     private String hexColorCode;
@@ -34,6 +35,23 @@ public class InfoPaint {
         this.brandName = brandName;
         this.hexColorCode = hexColorCode;
         this.matchValue = matchValue;
+    }
+
+    public static int getPaintIdCounter() {
+        return paintIdCounter;
+    }
+
+    public static void setPaintIdCounter(int paintIdCounter) {
+        InfoPaint.paintIdCounter = paintIdCounter;
+    }
+
+    public int getPaintId() {
+        return paintId;
+    }
+
+    public void setPaintId(int paintId) {
+        this.paintId = paintIdCounter++;
+        paintIdCounter++;
     }
 
     public String getPaintName() {
