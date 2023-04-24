@@ -1,0 +1,845 @@
+SunsetRed, Vallejo-Model, #c22c5f,
+BrownRose, Vallejo-Model, #cf8774,
+BeigeRed, Vallejo-Model, #c79166,
+GermanOrange, Vallejo-Model, #f05426,
+GermanYellow, Vallejo-Model, #e8e589,
+OxfordBlue, Vallejo-Model, #3a465f,
+BlueGreen, Vallejo-Model, #1a9496,
+RoyalBlue, Vallejo-Model, #41558d,
+RoyalPurple, Vallejo-Model, #4b2967,
+BlueViolet, Vallejo-Model, #795c9a,
+VioletRed, Vallejo-Model, #6b2946,
+BurntCadmiumRed, Vallejo-Model, #623535,
+BasicSkintone, Vallejo-Model, #fbbc8c,
+LuftwaffeUniformWW2, Vallejo-Model, #3d474f,
+Scarlet, Vallejo-Model, #da3630,
+RedLeather, Vallejo-Model, #93453d,
+IraqiSand, Vallejo-Model, #b89972,
+Offwhite, Vallejo-Model, #efeee2,
+GermanCam.BeigeWW2, Vallejo-Model, #9c8d70,
+GermanCam.BlackBrown, Vallejo-Model, #5b3528,
+LuftwaffeCam.Green, Vallejo-Model, #596b3f,
+GermanCam.BlackBrown, Vallejo-Model, #553528,
+GermanCam.OrangeOchre, Vallejo-Model, #9d7e55,
+GermanCam.PaleBrown, Vallejo-Model, #82685e,
+GermanCam.MediumBrown, Vallejo-Model, #722b2f,
+LimeGreen, Vallejo-Model, #6fae4e,
+AmaranthRed, Vallejo-Model, #cc4338,
+GermanFieldGreyWW2, Vallejo-Model, #595748,
+GermanCam.BrightGreen, Vallejo-Model, #528944,
+SalmonRose, Vallejo-Model, #f89d87,
+LondonGrey, Vallejo-Model, #4a555e,
+PaleSand, Vallejo-Model, #d1c49c,
+Emerald, Vallejo-Model, #00906a,
+Ultramarine, Vallejo-Model, #3b5da7,
+LightTurquoise, Vallejo-Model, #0094a5,
+AndreaBlue, Vallejo-Model, #008dc9,
+CorkBrown, Vallejo-Model, #a57b63,
+DeepSkyBlue, Vallejo-Model, #00a6da,
+SunnySkintone, Vallejo-Model, #f4b171,
+MahoganyBrown, Vallejo-Model, #804b47,
+DarkSand, Vallejo-Model, #d6b779,
+MediumOlive, Vallejo-Model, #226b2e,
+BrightOrange, Vallejo-Model, #f26833,
+OchreBrown, Vallejo-Model, #a77237,
+GoldenOlive, Vallejo-Model, #78923b,
+IceYellow, Vallejo-Model, #feef87,
+BlackRed[CadmiumBrown], Vallejo-Model, #5f2e39,
+MediumFleshtone, Vallejo-Model, #c08245,
+GlossyBlack, Vallejo-Model, #010101,
+BlackGrey, Vallejo-Model, #2d373a,
+GreyGreen, Vallejo-Model, #565a60,
+DarkBlueGrey, Vallejo-Model, #4b5751,
+DarkSeaGreen, Vallejo-Model, #2f4844,
+BasaltGrey, Vallejo-Model, #576860,
+MediumSeaGrey, Vallejo-Model, #869393,
+LeatherBrown, Vallejo-Model, #4a4639,
+ChocolateBrown, Vallejo-Model, #5f5047,
+USFieldDrab, Vallejo-Model, #705d43,
+TanEarth, Vallejo-Model, #9c7962,
+BeigeBrown, Vallejo-Model, #78584a,
+BrownSand, Vallejo-Model, #b08064,
+GoldBrown, Vallejo-Model, #ba8636,
+GreenBrown, Vallejo-Model, #8d7b55,
+KhakiGrey, Vallejo-Model, #8b7f5d,
+YellowGreen, Vallejo-Model, #91864b,
+Middlestone, Vallejo-Model, #9c9660,
+SilverGrey, Vallejo-Model, #d8dfd5,
+StoneGrey, Vallejo-Model, #959980,
+PastelGreen, Vallejo-Model, #a4bb99,
+GreenGrey, Vallejo-Model, #827e61,
+BrownViolet, Vallejo-Model, #4e5d4d,
+OliveGrey, Vallejo-Model, #39584f,
+USAOliveDrab, Vallejo-Model, #3b4947,
+ReflectiveGreen, Vallejo-Model, #496244,
+IntermediateGreen, Vallejo-Model, #49944f,
+YellowOlive, Vallejo-Model, #26392e,
+USDarkGreen, Vallejo-Model, #5b6955,
+Cam.OliveGreen, Vallejo-Model, #3c5549,
+GunshipGreen, Vallejo-Model, #3d685e,
+GermanCam.ExtraDarkGreen, Vallejo-Model, #30504a,
+BronceGreen, Vallejo-Model, #2a534f,
+DarkSeaBlue, Vallejo-Model, #2a4048,
+DarkPrussianBlue, Vallejo-Model, #192c43,
+FrenchMirageBlue, Vallejo-Model, #557880,
+PastelBlue, Vallejo-Model, #67859b,
+Azure, Vallejo-Model, #717cad,
+IntermediateBlue, Vallejo-Model, #607a80,
+DarkBlueGrey, Vallejo-Model, #5c7476,
+BlueGreyPale, Vallejo-Model, #9ea7a5,
+PaleBlue, Vallejo-Model, #83b5b2,
+PaleGreyBlue, Vallejo-Model, #bacdd0,
+CarmineRed, Vallejo-Model, #b73035,
+Vermillion, Vallejo-Model, #d22b2d,
+OrangeRed, Vallejo-Model, #e34c26,
+LightOrange, Vallejo-Model, #f68627,
+TanYellow, Vallejo-Model, #b5915d,
+YellowOchre, Vallejo-Model, #c19448,
+GreenOchre, Vallejo-Model, #a98969,
+DeepYellow, Vallejo-Model, #ffe30c,
+SandYellow, Vallejo-Model, #d7bf75,
+Beige, Vallejo-Model, #dbc58e,
+Ivory, Vallejo-Model, #eff1d9,
+GermanUniform, Vallejo-Model, #286254,
+EnglishUniform, Vallejo-Model, #715833,
+UniformGreen, Vallejo-Model, #577a38,
+JapanUniformWW2, Vallejo-Model, #998546,
+RussianUniformWW2, Vallejo-Model, #606d53,
+Blue, Vallejo-Model, #043667,
+Red, Vallejo-Model, #91323a,
+DarkFlesh, Vallejo-Model, #d9a262,
+LightFlesh, Vallejo-Model, #feedd0,
+LightBrown, Vallejo-Model, #bf764e,
+DarkBlue, Vallejo-Model, #0d5a86,
+SaddleBrown, Vallejo-Model, #89584f,
+BurntUmber, Vallejo-Model, #665148,
+LightGreen, Vallejo-Model, #00a850,
+GreyBlue, Vallejo-Model, #45708d,
+OldRose, Vallejo-Model, #d47b7d,
+Magenta, Vallejo-Model, #a92a56,
+DarkRed, Vallejo-Model, #a24a46,
+DarkSand, Vallejo-Model, #d1b47e,
+GoldenYellow, Vallejo-Model, #f7c65e,
+LightYellow, Vallejo-Model, #f7ea62,
+Black, Vallejo-Model, #252b31,
+White, Vallejo-Model, #ffffff,
+LemonYellow, Vallejo-Model, #fef10e,
+FlatYellow, Vallejo-Model, #ffcd25,
+YellowGreen, Vallejo-Model, #d9e02a,
+FlatFlesh, Vallejo-Model, #d8a977,
+ClearOrange, Vallejo-Model, #f1552c,
+FlatRed, Vallejo-Model, #aa3037,
+Pink, Vallejo-Model, #d37497,
+Purple, Vallejo-Model, #834a6c,
+Violet, Vallejo-Model, #4b2f65,
+SkyBlue, Vallejo-Model, #86d6f7,
+FlatBlue, Vallejo-Model, #336991,
+MediumBlue, Vallejo-Model, #066588,
+FieldBlue, Vallejo-Model, #436872,
+PrussianBlue, Vallejo-Model, #2a546e,
+Turquoise, Vallejo-Model, #008e9c,
+OliveGreen, Vallejo-Model, #6a8b3a,
+FlatGreen, Vallejo-Model, #2a6531,
+ParkGreenFlat, Vallejo-Model, #008c5d,
+DeepGreen, Vallejo-Model, #0a6b48,
+GreyGrey, Vallejo-Model, #aecbbb,
+LightGreenBlue, Vallejo-Model, #6d9a95,
+LightSeaGrey, Vallejo-Model, #97b4b5,
+GreenSky, Vallejo-Model, #59ad84,
+MilitaryGreen, Vallejo-Model, #3e5848,
+Buff, Vallejo-Model, #d2ca9f,
+DesertYellow, Vallejo-Model, #b19151,
+DarkYellow, Vallejo-Model, #9d9059,
+GermanCam.DarkGreen, Vallejo-Model, #2f4845,
+BlackGreen, Vallejo-Model, #19423e,
+OrangeBrown, Vallejo-Model, #b86f44,
+CavalryBrown, Vallejo-Model, #853f3d,
+FlatEarth, Vallejo-Model, #87643c,
+FlatBrown, Vallejo-Model, #764841,
+HullRed, Vallejo-Model, #522724,
+DeckTan, Vallejo-Model, #bec5b3,
+MediumGrey, Vallejo-Model, #909b85,
+Khaki, Vallejo-Model, #969163,
+SkyGrey, Vallejo-Model, #b3b6b2,
+LightGrey, Vallejo-Model, #949c9a,
+DarkSeaGrey, Vallejo-Model, #787d7a,
+NeutralGrey, Vallejo-Model, #64767a,
+WhiteGrey, Vallejo-Model, #eef1ec,
+DarkGrey, Vallejo-Model, #233e3d,
+GermanGrey, Vallejo-Model, #192f30,
+EmperorsChildren, Citadel, #bd3f75, 6.03
+CadianFleshtone, Citadel, #cb7953, 7.62
+BestigorFlesh, Citadel, #D38A57, 4.51
+TrollSlayerOrange, Citadel, #eb641b, 4.93
+ScreamingSkull, Citadel, #d9d8a6, 7.86
+StegadonScaleGreen, Citadel, #004261, 8.27
+TempleGuardBlue, Citadel, #35998e, 5.43
+AlaitocBlue, Citadel, #2e5689, 4.07
+XereusPurple, Citadel, #4b205c, 3.55
+GenestealerPurple, Citadel, #7c5ca4, 2.26
+ScreamerPink, Citadel, #831740, 7.68
+RhinoxHide, Citadel, #4e3433, 5.62
+FlayedOneFlesh, Citadel, #f3ca8a, 7.80
+MechanicusStandardGrey, Citadel, #454e50, 4.42
+WildRiderRed, Citadel, #e21516, 4.08
+BugmansGlow, Citadel, #8c5144, 4.21
+KarakStone, Citadel, #c1a069, 4.89
+CeramiteWhite, Citadel, #ffffff, 7.80
+BanebladeBrown, Citadel, #99826b, 4.93
+RhinoxHide, Citadel, #4e3433, 6.59
+DeathWorldForest, Citadel, #666c2d, 6.91
+RhinoxHide, Citadel, #4e3433, 5.99
+BanebladeBrown, Citadel, #99826b, 5.19
+StormverminFur, Citadel, #7d736a, 5.78
+TuskgorFur, Citadel, #8e3734, 8.40
+MootGreen, Citadel, #57aa2d, 4.84
+SquigOrange, Citadel, #b04d3e, 5.15
+SkavenblightDinge, Citadel, #4f4840, 6.85
+SkarsnikGreen, Citadel, #5e9067, 7.28
+LugganathOrange, Citadel, #F79E86, 0.72
+EshinGrey, Citadel, #535659, 3.74
+KriegKhaki, Citadel, #C0BD81, 7.24
+KabaliteGreen, Citadel, #008660, 3.66
+CalgarBlue, Citadel, #456eb5, 6.55
+AhrimanBlue, Citadel, #1F8C9C, 2.89
+HoethBlue, Citadel, #4f7fb5, 6.90
+BanebladeBrown, Citadel, #99826b, 5.26
+LothernBlue, Citadel, #3ba1d1, 2.34
+KislevFlesh, Citadel, #dbad75, 5.46
+BugmansGlow, Citadel, #8c5144, 4.94
+KislevFlesh, Citadel, #dbad75, 4.98
+WarpstoneGlow, Citadel, #257326, 4.20
+TrollSlayerOrange, Citadel, #eb641b, 3.57
+RatskinFlesh, Citadel, #AD6B4C, 8.19
+ElysianGreen, Citadel, #81932e, 3.46
+ScreamingSkull, Citadel, #d9d8a6, 11.84
+RhinoxHide, Citadel, #4e3433, 6.63
+BestigorFlesh, Citadel, #D38A57, 5.66
+AbaddonBlack, Citadel, #010100, 0.40
+DryadBark, Citadel, #3b342e, 9.11
+EshinGrey, Citadel, #535659, 2.32
+DarkReaper, Citadel, #3B5150, 5.25
+DarkReaper, Citadel, #3B5150, 4.58
+EshinGrey, Citadel, #535659, 9.38
+SlaaneshGrey, Citadel, #8E8C97, 8.05
+SkavenblightDinge, Citadel, #4f4840, 3.04
+SkavenblightDinge, Citadel, #4f4840, 5.12
+SteelLegionDrab, Citadel, #695634, 4.14
+BanebladeBrown, Citadel, #99826b, 4.25
+GorthorBrown, Citadel, #6e4e46, 4.74
+BanebladeBrown, Citadel, #99826b, 6.45
+TallarnSand, Citadel, #ab7d00, 6.29
+BanebladeBrown, Citadel, #99826b, 6.19
+BanebladeBrown, Citadel, #99826b, 5.93
+ZandriDust, Citadel, #a89758, 7.17
+ZandriDust, Citadel, #a89758, 4.04
+UlthuanGrey, Citadel, #d2e4df, 4.34
+AdministratumGrey, Citadel, #9da299, 6.76
+GaussBlasterGreen, Citadel, #84C3AA, 10.35
+DeathGuardArmor, Citadel, #848A66, 5.39
+DarkReaper, Citadel, #3B5150, 9.41
+DarkReaper, Citadel, #3B5150, 4.95
+DarkReaper, Citadel, #3B5150, 3.76
+Waaagh!Flesh, Citadel, #275627, 9.66
+SkarsnikGreen, Citadel, #5e9067, 5.87
+DryadBark, Citadel, #3b342e, 10.07
+Dawnstone, Citadel, #7b7e74, 10.77
+DarkReaper, Citadel, #3B5150, 5.69
+ThunderhawkBlue, Citadel, #417074, 7.62
+DarkReaper, Citadel, #3B5150, 3.69
+DarkReaper, Citadel, #3B5150, 4.10
+MechanicusStandardGrey, Citadel, #454e50, 8.04
+KantorBlue, Citadel, #06234f, 10.00
+TheFang, Citadel, #457479, 3.93
+RussGrey, Citadel, #55768a, 6.25
+HoethBlue, Citadel, #4f7fb5, 6.64
+TheFang, Citadel, #457479, 6.07
+TheFang, Citadel, #457479, 5.38
+CelestraGrey, Citadel, #9caeae, 3.58
+CelestraGrey, Citadel, #9caeae, 6.19
+UlthuanGrey, Citadel, #d2e4df, 8.92
+SquigOrange, Citadel, #b04d3e, 6.03
+WildRiderRed, Citadel, #e21516, 4.75
+JokaeroOrange, Citadel, #e6200f, 5.71
+FireDragonBright, Citadel, #f1844a, 5.34
+KarakStone, Citadel, #c1a069, 5.43
+KarakStone, Citadel, #c1a069, 5.57
+BanebladeBrown, Citadel, #99826b, 4.67
+YrielYellow, Citadel, #ffda00, 2.96
+UshabtiBone, Citadel, #c6c180, 5.20
+FlayedOneFlesh, Citadel, #f3ca8a, 6.08
+CeramiteWhite, Citadel, #ffffff, 9.69
+DarkReaper, Citadel, #3B5150, 9.16
+SteelLegionDrab, Citadel, #695634, 2.44
+LorenForest, Citadel, #5b7426, 4.51
+ZandriDust, Citadel, #a89758, 6.67
+Dawnstone, Citadel, #7b7e74, 10.05
+MacraggeBlue, Citadel, #14397a, 5.88
+TuskgorFur, Citadel, #8e3734, 3.26
+KislevFlesh, Citadel, #dbad75, 4.00
+CeramiteWhite, Citadel, #ffffff, 10.91
+CadianFleshtone, Citadel, #cb7953, 2.95
+AlaitocBlue, Citadel, #2e5689, 5.56
+BugmansGlow, Citadel, #8c5144, 3.47
+GorthorBrown, Citadel, #6e4e46, 3.74
+SybariteGreen, Citadel, #36a062, 4.74
+RussGrey, Citadel, #55768a, 4.09
+DeathclawBrown, Citadel, #ba6952, 11.98
+PinkHorror, Citadel, #96325c, 5.15
+SquigOrange, Citadel, #b04d3e, 5.05
+KislevFlesh, Citadel, #dbad75, 4.66
+FlayedOneFlesh, Citadel, #f3ca8a, 5.84
+FlashGitzYellow, Citadel, #ffee00, 6.59
+DryadBark, Citadel, #3b342e, 10.69
+CeramiteWhite, Citadel, #ffffff, 0.00
+DornYellow, Citadel, #FFF200, 0.42
+YrielYellow, Citadel, #ffda00, 4.79
+FlashGitzYellow, Citadel, #ffee00, 8.48
+KislevFlesh, Citadel, #dbad75, 1.99
+TrollSlayerOrange, Citadel, #eb641b, 5.53
+TuskgorFur, Citadel, #8e3734, 5.70
+EmperorsChildren, Citadel, #bd3f75, 14.69
+PinkHorror, Citadel, #96325c, 9.44
+XereusPurple, Citadel, #4b205c, 5.22
+BlueHorror, Citadel, #A2BAD2, 11.01
+CaledorSky, Citadel, #38689c, 4.82
+CaledorSky, Citadel, #38689c, 9.73
+ThunderhawkBlue, Citadel, #417074, 4.78
+StegadonScaleGreen, Citadel, #004261, 8.19
+AhrimanBlue, Citadel, #1F8C9C, 1.68
+StrakenGreen, Citadel, #6e8611, 6.30
+Waaagh!Flesh, Citadel, #275627, 5.85
+KabaliteGreen, Citadel, #008660, 3.05
+WarbossGreen, Citadel, #3b7d54, 8.27
+GaussBlasterGreen, Citadel, #84C3AA, 9.53
+TempleGuardBlue, Citadel, #35998e, 9.08
+CelestraGrey, Citadel, #9caeae, 3.00
+SybariteGreen, Citadel, #36a062, 8.37
+DarkReaper, Citadel, #3B5150, 7.52
+ScreamingSkull, Citadel, #d9d8a6, 5.08
+ZandriDust, Citadel, #a89758, 4.31
+ZandriDust, Citadel, #a89758, 3.50
+DarkReaper, Citadel, #3B5150, 4.37
+IncubiDarkness, Citadel, #094345, 3.50
+RatskinFlesh, Citadel, #AD6B4C, 3.78
+TuskgorFur, Citadel, #8e3734, 3.65
+SteelLegionDrab, Citadel, #695634, 8.62
+GorthorBrown, Citadel, #6e4e46, 3.64
+RhinoxHide, Citadel, #4e3433, 5.93
+PallidWychFlesh, Citadel, #d6d5c4, 6.90
+AdministratumGrey, Citadel, #9da299, 5.94
+DeathGuardArmor, Citadel, #848A66, 5.53
+CelestraGrey, Citadel, #9caeae, 6.73
+AdministratumGrey, Citadel, #9da299, 4.39
+Dawnstone, Citadel, #7b7e74, 3.80
+TheFang, Citadel, #457479, 7.67
+CeramiteWhite, Citadel, #ffffff, 5.76
+IncubiDarkness, Citadel, #094345, 4.94
+IncubiDarkness, Citadel, #094345, 9.75
+Tan, Vallejo-Game, #9f4746, 10.81
+DwarfSkin, Vallejo-Game, #cc7c67, 3.63
+BronzeFleshtone, Vallejo-Game, #db945c, 5.19
+HeavyOrange, Vallejo-Game, #ee5527, 0.34
+FluoYellow, Vallejo-Game, #eeea50, 8.87
+HeavyBlue, Vallejo-Game, #29556d, 8.78
+JadeGreen, Vallejo-Game, #128379, 8.17
+SombreGrey, Vallejo-Game, #4c5c7d, 6.32
+HeavyViolet, Vallejo-Game, #4c2e65, 1.97
+SombreGrey, Vallejo-Game, #4c5c7d, 12.99
+WarlordPurple, Vallejo-Game, #7d1a44, 5.47
+DarkFleshtone, Vallejo-Game, #4f2b26, 6.48
+CadmiumSkin, Vallejo-Game, #fab78a, 1.90
+CharredBrown, Vallejo-Game, #39343b, 9.15
+HotOrange, Vallejo-Game, #e43027, 2.42
+Tan, Vallejo-Game, #9f4746, 3.63
+HeavyKhaki, Vallejo-Game, #9d965d, 9.89
+Offwhite, Vallejo-Game, #f5f4da, 5.84
+HeavyWarmGrey, Vallejo-Game, #939066, 5.88
+DarkFleshtone, Vallejo-Game, #4f2b26, 5.62
+HeavyGreen, Vallejo-Game, #566840, 1.57
+DarkFleshtone, Vallejo-Game, #4f2b26, 5.26
+DesertYellow, Vallejo-Game, #8e7845, 5.33
+HeavyBrown, Vallejo-Game, #705d41, 10.06
+ScarletRed, Vallejo-Game, #741330, 7.02
+ScorpionGreen, Vallejo-Game, #48b851, 6.54
+HotOrange, Vallejo-Game, #e43027, 5.16
+HeavyBrown, Vallejo-Game, #705d41, 9.36
+GoblinGreen, Vallejo-Game, #23743c, 10.42
+RosyFlesh, Vallejo-Game, #f89e84, 1.23
+ColdGrey, Vallejo-Game, #54646d, 6.06
+ElficFlesh, Vallejo-Game, #cdc29c, 1.13
+FoulGreen, Vallejo-Game, #239378, 3.76
+SombreGrey, Vallejo-Game, #4c5c7d, 8.56
+SteelGrey, Vallejo-Game, #64889d, 10.38
+ElectricBlue, Vallejo-Game, #008cbf, 3.03
+HeavySkintone, Vallejo-Game, #aa7b62, 1.37
+ElectricBlue, Vallejo-Game, #008cbf, 9.38
+CadmiumSkin, Vallejo-Game, #fab78a, 4.91
+HeavySienna, Vallejo-Game, #744642, 3.32
+PaleYellow, Vallejo-Game, #d5c179, 4.60
+MutationGreen, Vallejo-Game, #296934, 1.78
+OrangeFire, Vallejo-Game, #f1652e, 0.84
+HeavyOchre, Vallejo-Game, #a87536, 1.40
+HeavyWarmGrey, Vallejo-Game, #939066, 9.41
+FluoYellow, Vallejo-Game, #eeea50, 7.35
+DarkFleshtone, Vallejo-Game, #4f2b26, 8.15
+HeavyGoldBrown, Vallejo-Game, #ba8636, 4.85
+Black, Vallejo-Game, #000000, 0.27
+HeavyCharcoal, Vallejo-Game, #1c2e2e, 6.00
+ColdGrey, Vallejo-Game, #54646d, 5.32
+ColdGrey, Vallejo-Game, #54646d, 10.10
+HeavyBlackGreen, Vallejo-Game, #18433d, 5.10
+HeavyGrey, Vallejo-Game, #626d54, 8.63
+StonewallGrey, Vallejo-Game, #828e95, 4.07
+BeastyBrown, Vallejo-Game, #55432d, 7.15
+BeastyBrown, Vallejo-Game, #55432d, 8.47
+HeavyBrown, Vallejo-Game, #705d41, 0.70
+HeavySkintone, Vallejo-Game, #aa7b62, 3.78
+Earth, Vallejo-Game, #6f563d, 5.60
+HeavySkintone, Vallejo-Game, #aa7b62, 2.17
+HeavyGoldBrown, Vallejo-Game, #ba8636, 0.00
+DesertYellow, Vallejo-Game, #8e7845, 3.87
+Khaki, Vallejo-Game, #8c806d, 4.69
+HeavyWarmGrey, Vallejo-Game, #939066, 5.66
+HeavyKhaki, Vallejo-Game, #9d965d, 0.75
+Verdigris, Vallejo-Game, #b3ceca, 9.97
+HeavyWarmGrey, Vallejo-Game, #939066, 7.24
+DeadFlesh, Vallejo-Game, #bcb686, 10.09
+Khaki, Vallejo-Game, #8c806d, 4.81
+HeavyGrey, Vallejo-Game, #626d54, 7.79
+CaymanGreen, Vallejo-Game, #285648, 4.24
+HeavyBlackGreen, Vallejo-Game, #18433d, 9.34
+HeavyGreen, Vallejo-Game, #566840, 5.13
+GoblinGreen, Vallejo-Game, #23743c, 12.49
+YellowOlive, Vallejo-Game, #063b2f, 6.81
+HeavyGrey, Vallejo-Game, #626d54, 2.90
+CaymanGreen, Vallejo-Game, #285648, 4.84
+CaymanGreen, Vallejo-Game, #285648, 7.95
+CaymanGreen, Vallejo-Game, #285648, 5.05
+CaymanGreen, Vallejo-Game, #285648, 5.07
+ScurvyGreen, Vallejo-Game, #09474e, 7.15
+RoyalPurple, Vallejo-Game, #23264f, 9.72
+ColdGrey, Vallejo-Game, #54646d, 8.22
+SteelGrey, Vallejo-Game, #64889d, 1.77
+SteelGrey, Vallejo-Game, #64889d, 12.15
+SteelGrey, Vallejo-Game, #64889d, 8.69
+ColdGrey, Vallejo-Game, #54646d, 7.37
+HeavyBlueGrey, Vallejo-Game, #9ca7a7, 1.22
+HeavyBlueGrey, Vallejo-Game, #9ca7a7, 7.96
+Verdigris, Vallejo-Game, #b3ceca, 4.10
+ScarletBloodRed, Vallejo-Game, #b72a38, 1.86
+BloodyRed, Vallejo-Game, #bf282e, 4.51
+HeavyOrange, Vallejo-Game, #ee5527, 3.46
+FilthyBrown, Vallejo-Game, #f58d2b, 2.12
+HeavyGoldBrown, Vallejo-Game, #ba8636, 7.52
+PlagueBrown, Vallejo-Game, #cc9b34, 4.93
+HeavySkintone, Vallejo-Game, #aa7b62, 6.48
+MoonYellow, Vallejo-Game, #fff103, 4.60
+PaleYellow, Vallejo-Game, #d5c179, 1.16
+PaleYellow, Vallejo-Game, #d5c179, 4.31
+Offwhite, Vallejo-Game, #f5f4da, 1.67
+CaymanGreen, Vallejo-Game, #285648, 4.79
+HeavyBrown, Vallejo-Game, #705d41, 3.42
+HeavyGreen, Vallejo-Game, #566840, 7.89
+DesertYellow, Vallejo-Game, #8e7845, 5.34
+HeavyGrey, Vallejo-Game, #626d54, 0.71
+MagicBlue, Vallejo-Game, #024381, 6.64
+HeavyRed, Vallejo-Game, #943238, 1.17
+BronzeFleshtone, Vallejo-Game, #db945c, 5.67
+Offwhite, Vallejo-Game, #f5f4da, 4.93
+HeavySkintone, Vallejo-Game, #aa7b62, 5.69
+HeavyBlue, Vallejo-Game, #29556d, 6.35
+HeavySienna, Vallejo-Game, #744642, 7.82
+Earth, Vallejo-Game, #6f563d, 7.47
+ScorpionGreen, Vallejo-Game, #48b851, 7.51
+ColdGrey, Vallejo-Game, #54646d, 8.10
+DwarfSkin, Vallejo-Game, #cc7c67, 7.88
+HeavyRed, Vallejo-Game, #943238, 9.99
+Tan, Vallejo-Game, #9f4746, 1.43
+BoneWhite, Vallejo-Game, #e8be86, 5.79
+BoneWhite, Vallejo-Game, #e8be86, 7.56
+FluoYellow, Vallejo-Game, #eeea50, 2.57
+HeavyCharcoal, Vallejo-Game, #1c2e2e, 6.21
+DeadWhite, Vallejo-Game, #ffffff, 0.00
+MoonYellow, Vallejo-Game, #fff103, 0.27
+SunYellow, Vallejo-Game, #ffcf07, 1.35
+FluoYellow, Vallejo-Game, #eeea50, 5.05
+BoneWhite, Vallejo-Game, #e8be86, 7.38
+HeavyOrange, Vallejo-Game, #ee5527, 1.03
+ScarletBloodRed, Vallejo-Game, #b72a38, 2.59
+SquidPink, Vallejo-Game, #da7fb5, 7.78
+WarlordPurple, Vallejo-Game, #7d1a44, 14.76
+HeavyViolet, Vallejo-Game, #4c2e65, 0.48
+GlacierBlue, Vallejo-Game, #acd0ee, 6.66
+SombreGrey, Vallejo-Game, #4c5c7d, 7.04
+HeavyBlue, Vallejo-Game, #29556d, 6.84
+ColdGrey, Vallejo-Game, #54646d, 4.66
+HeavyBlue, Vallejo-Game, #29556d, 1.17
+SteelGrey, Vallejo-Game, #64889d, 10.74
+CamoflageGreen, Vallejo-Game, #71753a, 9.44
+MutationGreen, Vallejo-Game, #296934, 1.57
+FoulGreen, Vallejo-Game, #239378, 6.74
+SickGreen, Vallejo-Game, #096638, 4.34
+Verdigris, Vallejo-Game, #b3ceca, 5.22
+StonewallGrey, Vallejo-Game, #828e95, 9.57
+HeavyBlueGrey, Vallejo-Game, #9ca7a7, 5.59
+FoulGreen, Vallejo-Game, #239378, 11.29
+CaymanGreen, Vallejo-Game, #285648, 5.05
+ElficFlesh, Vallejo-Game, #cdc29c, 3.00
+HeavyGoldBrown, Vallejo-Game, #ba8636, 6.30
+HeavyKhaki, Vallejo-Game, #9d965d, 2.57
+HeavyBlackGreen, Vallejo-Game, #18433d, 5.31
+HeavyBlackGreen, Vallejo-Game, #18433d, 1.16
+HeavySkintone, Vallejo-Game, #aa7b62, 6.28
+HeavySienna, Vallejo-Game, #744642, 4.68
+LeatherBrown, Vallejo-Game, #7b5d2a, 4.93
+HeavySienna, Vallejo-Game, #744642, 1.49
+DarkFleshtone, Vallejo-Game, #4f2b26, 2.05
+Verdigris, Vallejo-Game, #b3ceca, 9.09
+HeavyWarmGrey, Vallejo-Game, #939066, 9.65
+HeavyWarmGrey, Vallejo-Game, #939066, 1.28
+HeavyBlueGrey, Vallejo-Game, #9ca7a7, 6.99
+HeavyBlueGrey, Vallejo-Game, #9ca7a7, 4.21
+StonewallGrey, Vallejo-Game, #828e95, 8.64
+ColdGrey, Vallejo-Game, #54646d, 7.55
+DeadWhite, Vallejo-Game, #ffffff, 5.76
+HeavyBlackGreen, Vallejo-Game, #18433d, 4.62
+HeavyCharcoal, Vallejo-Game, #1c2e2e, 1.12
+MurderousMagenta, P3Formula, #a81f5e, 7.92
+KhardicFlesh, P3Formula, #cb7b5b, 5.82
+BeastHide, P3Formula, #b1956b, 6.65
+KhadorRedBase, P3Formula, #ee2824, 7.74
+MenothWhiteBase, P3Formula, #efefbb, 7.67
+GreatcoatGrey, P3Formula, #4d5861, 9.71
+TrollbloodBase, P3Formula, #13899b, 7.76
+CygnarBaseBlue, P3Formula, #124b9b, 7.36
+BeatenPurple, P3Formula, #552a72, 3.16
+CygnarBaseBlue, P3Formula, #124b9b, 16.77
+MurderousMagenta, P3Formula, #a81f5e, 14.93
+SanguineBase, P3Formula, #6c160f, 14.17
+MidlundFlesh, P3Formula, #f0a983, 6.84
+GreatcoatGrey, P3Formula, #4d5861, 7.22
+KhadorRedBase, P3Formula, #ee2824, 4.05
+Bloodstone, P3Formula, #9e4822, 9.70
+BeastHide, P3Formula, #b1956b, 2.28
+MenothWhiteHighlight, P3Formula, #f3f4de, 4.38
+CryxBaneHighlight, P3Formula, #93907d, 4.81
+BattlefieldBrown, P3Formula, #32251c, 12.66
+ThornwoodGreen, P3Formula, #65654b, 6.64
+BattlefieldBrown, P3Formula, #32251c, 11.24
+GunCorpsBrown, P3Formula, #937d48, 4.75
+BastionGrey, P3Formula, #777965, 11.80
+SanguineBase, P3Formula, #6c160f, 9.23
+NecrotiteGreen, P3Formula, #7fc348, 8.05
+KhadorRedBase, P3Formula, #ee2824, 6.96
+ThornwoodGreen, P3Formula, #65654b, 7.01
+OrdicOlive, P3Formula, #6e7e36, 9.37
+MidlundFlesh, P3Formula, #f0a983, 6.62
+GreatcoatGrey, P3Formula, #4d5861, 1.26
+HammerfallKhaki, P3Formula, #c8bf98, 2.42
+IosanGreen, P3Formula, #22a854, 14.00
+CygnarBaseBlue, P3Formula, #124b9b, 7.72
+TrollbloodBase, P3Formula, #13899b, 4.03
+CygnarBlueHighlight, P3Formula, #1f75bb, 10.19
+KhardicFlesh, P3Formula, #cb7b5b, 10.36
+IronhullGrey, P3Formula, #8e969b, 13.03
+MidlundFlesh, P3Formula, #f0a983, 6.66
+IdrianFlesh, P3Formula, #9b5e37, 15.09
+HammerfallKhaki, P3Formula, #c8bf98, 7.05
+GnarlsGreen, P3Formula, #126232, 4.78
+KhardicFlesh, P3Formula, #cb7b5b, 7.62
+BloodtrackerBrown, P3Formula, #a66a28, 3.07
+OrdicOlive, P3Formula, #6e7e36, 7.39
+MenothWhiteBase, P3Formula, #efefbb, 8.36
+BattlefieldBrown, P3Formula, #32251c, 15.63
+EmberOrange, P3Formula, #de8a2b, 8.36
+ThamarBlack, P3Formula, #040707, 1.69
+CryxBaneBase, P3Formula, #303924, 14.27
+GreatcoatGrey, P3Formula, #4d5861, 3.09
+GreatcoatGrey, P3Formula, #4d5861, 8.64
+CoalBlack, P3Formula, #005a61, 11.47
+ThornwoodGreen, P3Formula, #65654b, 10.84
+IronhullGrey, P3Formula, #8e969b, 3.61
+CryxBaneBase, P3Formula, #303924, 9.73
+ThornwoodGreen, P3Formula, #65654b, 12.00
+ThornwoodGreen, P3Formula, #65654b, 7.03
+BootstrapLeather, P3Formula, #956939, 10.31
+ThornwoodGreen, P3Formula, #65654b, 12.77
+KhardicFlesh, P3Formula, #cb7b5b, 7.69
+RucksackTan, P3Formula, #b4973f, 7.51
+GunCorpsBrown, P3Formula, #937d48, 4.26
+GunCorpsBrown, P3Formula, #937d48, 6.33
+GunCorpsBrown, P3Formula, #937d48, 4.42
+BeastHide, P3Formula, #b1956b, 7.63
+MenothWhiteHighlight, P3Formula, #f3f4de, 9.23
+CryxBaneHighlight, P3Formula, #93907d, 4.08
+TrollbloodHighlight, P3Formula, #bab4a3, 9.13
+BastionGrey, P3Formula, #777965, 4.25
+ThornwoodGreen, P3Formula, #65654b, 8.35
+CoalBlack, P3Formula, #005a61, 10.28
+GreatcoatGrey, P3Formula, #4d5861, 9.58
+ThornwoodGreen, P3Formula, #65654b, 8.45
+IosanGreen, P3Formula, #22a854, 7.78
+CryxBaneBase, P3Formula, #303924, 6.44
+ThornwoodGreen, P3Formula, #65654b, 5.81
+GreatcoatGrey, P3Formula, #4d5861, 12.25
+CoalBlack, P3Formula, #005a61, 10.95
+CoalBlack, P3Formula, #005a61, 9.37
+CoalBlack, P3Formula, #005a61, 7.01
+GreatcoatGrey, P3Formula, #4d5861, 11.63
+ExileBlue, P3Formula, #203367, 12.77
+TrollbloodBase, P3Formula, #13899b, 11.03
+IronhullGrey, P3Formula, #8e969b, 10.30
+CygnarBlueHighlight, P3Formula, #1f75bb, 10.74
+IronhullGrey, P3Formula, #8e969b, 13.05
+GreatcoatGrey, P3Formula, #4d5861, 11.79
+IronhullGrey, P3Formula, #8e969b, 7.20
+ArcaneBlue, P3Formula, #7acfd9, 10.78
+UnderbellyBlue, P3Formula, #c0d4da, 2.89
+SkorneRed, P3Formula, #b01f24, 4.18
+KhadorRedBase, P3Formula, #ee2824, 6.39
+KhadorRedBase, P3Formula, #ee2824, 5.33
+KhadorRedHighlight, P3Formula, #f29042, 3.11
+BeastHide, P3Formula, #b1956b, 2.98
+RucksackTan, P3Formula, #b4973f, 4.92
+BeastHide, P3Formula, #b1956b, 5.27
+CygnusYellow, P3Formula, #f3e72e, 3.24
+HammerfallKhaki, P3Formula, #c8bf98, 7.18
+HammerfallKhaki, P3Formula, #c8bf98, 5.53
+MenothWhiteHighlight, P3Formula, #f3f4de, 1.38
+CoalBlack, P3Formula, #005a61, 10.32
+ThornwoodGreen, P3Formula, #65654b, 9.30
+OrdicOlive, P3Formula, #6e7e36, 6.11
+GunCorpsBrown, P3Formula, #937d48, 3.51
+ThornwoodGreen, P3Formula, #65654b, 5.02
+ExileBlue, P3Formula, #203367, 3.78
+SkorneRed, P3Formula, #b01f24, 9.94
+MidlundFlesh, P3Formula, #f0a983, 9.16
+RynFlesh, P3Formula, #fae3d1, 5.14
+KhardicFlesh, P3Formula, #cb7b5b, 4.01
+GreatcoatGrey, P3Formula, #4d5861, 10.16
+IdrianFlesh, P3Formula, #9b5e37, 11.69
+ThornwoodGreen, P3Formula, #65654b, 12.72
+IosanGreen, P3Formula, #22a854, 0.96
+GreatcoatGrey, P3Formula, #4d5861, 11.28
+KhardicFlesh, P3Formula, #cb7b5b, 11.44
+MurderousMagenta, P3Formula, #a81f5e, 4.10
+SanguineHighlight, P3Formula, #c84959, 9.35
+HammerfallKhaki, P3Formula, #c8bf98, 6.54
+Heartfire, P3Formula, #f6b046, 7.53
+CygnusYellow, P3Formula, #f3e72e, 4.39
+BattlefieldBrown, P3Formula, #32251c, 13.18
+MorrowWhite, P3Formula, #FEFBFD, 1.84
+CygnusYellow, P3Formula, #f3e72e, 3.80
+SulfuricYellow, P3Formula, #f0d233, 4.00
+CygnusYellow, P3Formula, #f3e72e, 5.34
+MidlundFlesh, P3Formula, #f0a983, 7.65
+KhadorRedBase, P3Formula, #ee2824, 7.58
+SkorneRed, P3Formula, #b01f24, 4.58
+SanguineHighlight, P3Formula, #c84959, 16.70
+MurderousMagenta, P3Formula, #a81f5e, 14.01
+BeatenPurple, P3Formula, #552a72, 4.54
+ArcaneBlue, P3Formula, #7acfd9, 9.60
+CygnarBlueHighlight, P3Formula, #1f75bb, 10.02
+GreatcoatGrey, P3Formula, #4d5861, 9.94
+GreatcoatGrey, P3Formula, #4d5861, 7.79
+GreatcoatGrey, P3Formula, #4d5861, 7.54
+TrollbloodBase, P3Formula, #13899b, 2.70
+OrdicOlive, P3Formula, #6e7e36, 5.43
+GnarlsGreen, P3Formula, #126232, 3.34
+IosanGreen, P3Formula, #22a854, 12.64
+GnarlsGreen, P3Formula, #126232, 6.07
+UnderbellyBlue, P3Formula, #c0d4da, 10.66
+IronhullGrey, P3Formula, #8e969b, 9.42
+IronhullGrey, P3Formula, #8e969b, 11.29
+IosanGreen, P3Formula, #22a854, 11.93
+ThornwoodGreen, P3Formula, #65654b, 12.38
+JackBone, P3Formula, #d6d4aa, 3.62
+BeastHide, P3Formula, #b1956b, 4.79
+BeastHide, P3Formula, #b1956b, 6.69
+CoalBlack, P3Formula, #005a61, 11.23
+CoalBlack, P3Formula, #005a61, 11.54
+KhardicFlesh, P3Formula, #cb7b5b, 6.54
+Bloodstone, P3Formula, #9e4822, 13.71
+BootstrapLeather, P3Formula, #956939, 4.06
+IdrianFlesh, P3Formula, #9b5e37, 15.81
+BattlefieldBrown, P3Formula, #32251c, 10.42
+TrollbloodHighlight, P3Formula, #bab4a3, 6.75
+CryxBaneHighlight, P3Formula, #93907d, 5.57
+TraitorGreen, P3Formula, #809065, 6.86
+TrollbloodHighlight, P3Formula, #bab4a3, 7.16
+IronhullGrey, P3Formula, #8e969b, 4.28
+BastionGrey, P3Formula, #777965, 9.20
+GreatcoatGrey, P3Formula, #4d5861, 12.18
+MorrowWhite, P3Formula, #FEFBFD, 5.71
+CryxBaneBase, P3Formula, #303924, 12.57
+CryxBaneBase, P3Formula, #303924, 14.03
+WarlockPurple, ArmyPainter, #bb5b64, 9.71
+ScarTissue, ArmyPainter, #ca8772, 1.38
+TrollClaws, ArmyPainter, #cb8b4e, 4.84
+LavaOrange, ArmyPainter, #e65525, 1.89
+MoonDust, ArmyPainter, #e8d468, 7.03
+DarkSky, ArmyPainter, #2b4b5f, 6.18
+RoyalCloak, ArmyPainter, #15999c, 1.82
+GriffonBlue, ArmyPainter, #215383, 6.25
+AlienPurple, ArmyPainter, #50317b, 4.74
+DungeonGrey, ArmyPainter, #686c71, 14.17
+CrustedSore, ArmyPainter, #611624, 11.26
+DirtSpatter, ArmyPainter, #5e3827, 7.66
+CorpsePale, ArmyPainter, #edccad, 7.22
+DarkSky, ArmyPainter, #2b4b5f, 7.67
+PureRed, ArmyPainter, #cf2127, 4.33
+MarsRed, ArmyPainter, #b73b37, 8.60
+KoboldSkin, ArmyPainter, #c9a484, 5.64
+BrainmatterBeige, ArmyPainter, #f1f0e0, 1.71
+FilthyCape, ArmyPainter, #7c7863, 9.86
+DirtSpatter, ArmyPainter, #5e3827, 2.02
+ArmyGreen, ArmyPainter, #6e7645, 6.23
+DirtSpatter, ArmyPainter, #5e3827, 3.09
+HempRope, ArmyPainter, #94763a, 6.10
+WerewolfFur, ArmyPainter, #785e4e, 5.01
+CrustedSore, ArmyPainter, #611624, 7.53
+SnakeScales, ArmyPainter, #8ab239, 7.44
+PureRed, ArmyPainter, #cf2127, 4.77
+CryptWraith, ArmyPainter, #606050, 3.64
+GoblinGreen, ArmyPainter, #348941, 4.53
+CentaurSkin, ArmyPainter, #deaba0, 6.91
+UniformGrey, ArmyPainter, #5e6a73, 8.61
+SkeletonBone, ArmyPainter, #d3c89d, 1.60
+ElementalBolt, ArmyPainter, #009a82, 6.16
+VikingBlue, ArmyPainter, #00609a, 7.93
+HydraTurquoise, ArmyPainter, #199ba3, 4.38
+TroglodyteBlue, ArmyPainter, #0889ba, 3.73
+TannedFlesh, ArmyPainter, #bc745e, 7.66
+VoidshieldBlue, ArmyPainter, #2ca2d9, 2.70
+BarbarianFlesh, ArmyPainter, #e89c6c, 7.87
+GrimoirePurple, ArmyPainter, #805259, 5.93
+SkeletonBone, ArmyPainter, #d3c89d, 7.77
+Greenskin, ArmyPainter, #136232, 4.74
+LavaOrange, ArmyPainter, #e65525, 5.42
+HempRope, ArmyPainter, #94763a, 6.18
+ScalyHide, ArmyPainter, #859852, 4.14
+MoonDust, ArmyPainter, #e8d468, 9.24
+CrustedSore, ArmyPainter, #611624, 8.49
+TrollClaws, ArmyPainter, #cb8b4e, 3.58
+MattBlack, ArmyPainter, #231f20, 12.15
+NecromanceCloak, ArmyPainter, #3c3d37, 7.29
+UniformGrey, ArmyPainter, #5e6a73, 6.72
+CryptWraith, ArmyPainter, #606050, 8.30
+NecromanceCloak, ArmyPainter, #3c3d37, 8.26
+CryptWraith, ArmyPainter, #606050, 7.81
+AshGrey, ArmyPainter, #a2a5a4, 8.19
+HardenedCarapace, ArmyPainter, #4c473f, 2.49
+DarkStone, ArmyPainter, #605752, 3.70
+WerewolfFur, ArmyPainter, #785e4e, 4.98
+FilthyCape, ArmyPainter, #7c7863, 10.08
+WerewolfFur, ArmyPainter, #785e4e, 2.79
+TannedFlesh, ArmyPainter, #bc745e, 6.60
+SulphideOchre, ArmyPainter, #c68512, 4.60
+FilthyCape, ArmyPainter, #7c7863, 6.50
+FilthyCape, ArmyPainter, #7c7863, 5.50
+CommandoGreen, ArmyPainter, #827b39, 5.09
+CombatFatigue, ArmyPainter, #878e5c, 5.72
+MummyRobes, ArmyPainter, #ebded5, 6.84
+CombatFatigue, ArmyPainter, #878e5c, 9.96
+NecroticFlesh, ArmyPainter, #bfc292, 8.51
+FilthyCape, ArmyPainter, #7c7863, 3.36
+CryptWraith, ArmyPainter, #606050, 5.91
+CryptWraith, ArmyPainter, #606050, 11.89
+NecromanceCloak, ArmyPainter, #3c3d37, 6.93
+CryptWraith, ArmyPainter, #606050, 8.23
+GoblinGreen, ArmyPainter, #348941, 4.69
+NecromanceCloak, ArmyPainter, #3c3d37, 7.21
+CryptWraith, ArmyPainter, #606050, 5.47
+HardenedCarapace, ArmyPainter, #4c473f, 10.65
+WizardsOrb, ArmyPainter, #00726a, 7.54
+NecromanceCloak, ArmyPainter, #3c3d37, 10.62
+NecromanceCloak, ArmyPainter, #3c3d37, 12.25
+DarkSky, ArmyPainter, #2b4b5f, 7.52
+DeepBlue, ArmyPainter, #083251, 4.25
+WolfGrey, ArmyPainter, #5b8093, 6.12
+WolfGrey, ArmyPainter, #5b8093, 3.43
+ElectricBlue, ArmyPainter, #508cbe, 9.78
+WolfGrey, ArmyPainter, #5b8093, 6.45
+UniformGrey, ArmyPainter, #5e6a73, 6.20
+AshGrey, ArmyPainter, #a2a5a4, 2.02
+AshGrey, ArmyPainter, #a2a5a4, 9.56
+SpaceshipExterior, ArmyPainter, #cdced0, 5.30
+MarsRed, ArmyPainter, #b73b37, 2.25
+PureRed, ArmyPainter, #cf2127, 1.62
+LavaOrange, ArmyPainter, #e65525, 2.51
+BarbarianFlesh, ArmyPainter, #e89c6c, 8.23
+TrollClaws, ArmyPainter, #cb8b4e, 7.27
+DesertYellow, ArmyPainter, #c7952c, 4.35
+KoboldSkin, ArmyPainter, #c9a484, 10.68
+BabeBlonde, ArmyPainter, #f8dd0d, 2.18
+SkeletonBone, ArmyPainter, #d3c89d, 6.89
+SkeletonBone, ArmyPainter, #d3c89d, 3.81
+BrainmatterBeige, ArmyPainter, #f1f0e0, 2.77
+WizardsOrb, ArmyPainter, #00726a, 7.49
+MonsterBrown, ArmyPainter, #855c2a, 6.51
+MouldyClothes, ArmyPainter, #447b3a, 4.42
+HempRope, ArmyPainter, #94763a, 5.82
+CryptWraith, ArmyPainter, #606050, 6.53
+DeepBlue, ArmyPainter, #083251, 6.33
+VampireRed, ArmyPainter, #981d34, 3.84
+BarbarianFlesh, ArmyPainter, #e89c6c, 6.75
+AridEarth, ArmyPainter, #faecc3, 3.97
+TannedFlesh, ArmyPainter, #bc745e, 5.10
+GriffonBlue, ArmyPainter, #215383, 4.25
+WerewolfFur, ArmyPainter, #785e4e, 6.85
+DarkStone, ArmyPainter, #605752, 4.44
+GoblinGreen, ArmyPainter, #348941, 10.70
+WolfGrey, ArmyPainter, #5b8093, 7.34
+PixiePink, ArmyPainter, #d47a83, 2.40
+VampireRed, ArmyPainter, #981d34, 9.57
+MarsRed, ArmyPainter, #b73b37, 6.17
+BansheeBrown, ArmyPainter, #c3b097, 6.98
+MoonDust, ArmyPainter, #e8d468, 7.17
+BabeBlonde, ArmyPainter, #f8dd0d, 6.96
+MattBlack, ArmyPainter, #231f20, 7.17
+MattWhite, ArmyPainter, #ffffff, 0.00
+BabeBlonde, ArmyPainter, #f8dd0d, 6.38
+DaemonicYellow, ArmyPainter, #fada06, 5.13
+PoisonousCloud, ArmyPainter, #cdde4a, 3.68
+KoboldSkin, ArmyPainter, #c9a484, 5.04
+LavaOrange, ArmyPainter, #e65525, 2.46
+MarsRed, ArmyPainter, #b73b37, 4.81
+PixiePink, ArmyPainter, #d47a83, 8.35
+WastelandSoil, ArmyPainter, #774b58, 7.08
+AlienPurple, ArmyPainter, #50317b, 5.20
+GorgonHide, ArmyPainter, #c7d2e4, 10.76
+VikingBlue, ArmyPainter, #00609a, 6.70
+VikingBlue, ArmyPainter, #00609a, 9.53
+UniformGrey, ArmyPainter, #5e6a73, 6.25
+DarkSky, ArmyPainter, #2b4b5f, 4.15
+HydraTurquoise, ArmyPainter, #199ba3, 5.30
+ScalyHide, ArmyPainter, #859852, 6.90
+Greenskin, ArmyPainter, #136232, 3.27
+GoblinGreen, ArmyPainter, #348941, 8.43
+Greenskin, ArmyPainter, #136232, 6.10
+StoneGolem, ArmyPainter, #b9bab7, 8.74
+RoyalCloak, ArmyPainter, #15999c, 10.52
+AshGrey, ArmyPainter, #a2a5a4, 7.41
+KrakenSkin, ArmyPainter, #71c591, 8.95
+CryptWraith, ArmyPainter, #606050, 9.99
+SkeletonBone, ArmyPainter, #d3c89d, 1.01
+DesertYellow, ArmyPainter, #c7952c, 8.49
+CombatFatigue, ArmyPainter, #878e5c, 6.58
+NecromanceCloak, ArmyPainter, #3c3d37, 8.39
+NecromanceCloak, ArmyPainter, #3c3d37, 10.06
+TannedFlesh, ArmyPainter, #bc745e, 6.18
+GrimoirePurple, ArmyPainter, #805259, 8.41
+MonsterBrown, ArmyPainter, #855c2a, 4.01
+GrimoirePurple, ArmyPainter, #805259, 7.78
+OakBrown, ArmyPainter, #432010, 7.62
+DrakeTooth, ArmyPainter, #cfcbb4, 5.02
+AshGrey, ArmyPainter, #a2a5a4, 9.27
+CombatFatigue, ArmyPainter, #878e5c, 4.38
+StoneGolem, ArmyPainter, #b9bab7, 1.86
+AshGrey, ArmyPainter, #a2a5a4, 4.18
+FieldGrey, ArmyPainter, #787c78, 0.75
+DungeonGrey, ArmyPainter, #686c71, 5.31
+BrainmatterBeige, ArmyPainter, #f1f0e0, 5.23
+NecromanceCloak, ArmyPainter, #3c3d37, 8.58
+MattBlack, ArmyPainter, #231f20, 10.58

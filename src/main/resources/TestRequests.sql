@@ -1,29 +1,39 @@
 SELECT name, COUNT(name)
-FROM p3formula_test
+FROM paint
 GROUP BY (name)
 HAVING COUNT(name)>1
 ORDER BY name;
 
 SELECT DISTINCT name, COUNT(name)
-FROM p3formula_test
+FROM paint
 GROUP BY (name)
 HAVING COUNT(name)>1
 ORDER BY name;
 
 
 DELETE FROM 
-vallejo_game a USING vallejo_game b
+paint a USING paint b
 WHERE a.paint_id < b.paint_id
-AND a.name = b.name AND a.match_value = b.match_value;
+AND a.name = b.name;
 
 SELECT *
-FROM p3formula_test
-ORDER BY brand;
+FROM paint
+WHERE brand ILIKE '%ArmyPainter%';
+
+SELECT TRIM(name) 
+FROM paint;
+SELECT TRIM (hex_color_code)
+FROM paint;
+
+
+
+
+TRIM (hex_color_code)
 
 --command " "\\copy public.vallejo_game (name, brand, hex_color_code, match_value) FROM 'C:/Users/Student/DOWNLO~1/VALLEJ~1.CSV' DELIMITER ',' CSV QUOTE '\"' ESCAPE '''';""
 
 SELECT*
-FROM vallejo_game
+FROM paint
 WHERE name ILIKE '%beiGeRed%'
 LIMIT 25;
 

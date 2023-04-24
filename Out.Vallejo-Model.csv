@@ -1,0 +1,846 @@
+paintId,Name,Brand,hexColorCode,matchValue
+0,SunsetRed," Vallejo-Model"," #c22c5f",
+1,BrownRose," Vallejo-Model"," #cf8774",
+2,BeigeRed," Vallejo-Model"," #c79166",
+3,GermanOrange," Vallejo-Model"," #f05426",
+4,GermanYellow," Vallejo-Model"," #e8e589",
+5,OxfordBlue," Vallejo-Model"," #3a465f",
+6,BlueGreen," Vallejo-Model"," #1a9496",
+7,RoyalBlue," Vallejo-Model"," #41558d",
+8,RoyalPurple," Vallejo-Model"," #4b2967",
+9,BlueViolet," Vallejo-Model"," #795c9a",
+10,VioletRed," Vallejo-Model"," #6b2946",
+11,BurntCadmiumRed," Vallejo-Model"," #623535",
+12,BasicSkintone," Vallejo-Model"," #fbbc8c",
+13,LuftwaffeUniformWW2," Vallejo-Model"," #3d474f",
+14,Scarlet," Vallejo-Model"," #da3630",
+15,RedLeather," Vallejo-Model"," #93453d",
+16,IraqiSand," Vallejo-Model"," #b89972",
+17,Offwhite," Vallejo-Model"," #efeee2",
+18,GermanCam.BeigeWW2," Vallejo-Model"," #9c8d70",
+19,GermanCam.BlackBrown," Vallejo-Model"," #5b3528",
+20,LuftwaffeCam.Green," Vallejo-Model"," #596b3f",
+21,GermanCam.BlackBrown," Vallejo-Model"," #553528",
+22,GermanCam.OrangeOchre," Vallejo-Model"," #9d7e55",
+23,GermanCam.PaleBrown," Vallejo-Model"," #82685e",
+24,GermanCam.MediumBrown," Vallejo-Model"," #722b2f",
+25,LimeGreen," Vallejo-Model"," #6fae4e",
+26,AmaranthRed," Vallejo-Model"," #cc4338",
+27,GermanFieldGreyWW2," Vallejo-Model"," #595748",
+28,GermanCam.BrightGreen," Vallejo-Model"," #528944",
+29,SalmonRose," Vallejo-Model"," #f89d87",
+30,LondonGrey," Vallejo-Model"," #4a555e",
+31,PaleSand," Vallejo-Model"," #d1c49c",
+32,Emerald," Vallejo-Model"," #00906a",
+33,Ultramarine," Vallejo-Model"," #3b5da7",
+34,LightTurquoise," Vallejo-Model"," #0094a5",
+35,AndreaBlue," Vallejo-Model"," #008dc9",
+36,CorkBrown," Vallejo-Model"," #a57b63",
+37,DeepSkyBlue," Vallejo-Model"," #00a6da",
+38,SunnySkintone," Vallejo-Model"," #f4b171",
+39,MahoganyBrown," Vallejo-Model"," #804b47",
+40,DarkSand," Vallejo-Model"," #d6b779",
+41,MediumOlive," Vallejo-Model"," #226b2e",
+42,BrightOrange," Vallejo-Model"," #f26833",
+43,OchreBrown," Vallejo-Model"," #a77237",
+44,GoldenOlive," Vallejo-Model"," #78923b",
+45,IceYellow," Vallejo-Model"," #feef87",
+46,BlackRed[CadmiumBrown]," Vallejo-Model"," #5f2e39",
+47,MediumFleshtone," Vallejo-Model"," #c08245",
+48,GlossyBlack," Vallejo-Model"," #010101",
+49,BlackGrey," Vallejo-Model"," #2d373a",
+50,GreyGreen," Vallejo-Model"," #565a60",
+51,DarkBlueGrey," Vallejo-Model"," #4b5751",
+52,DarkSeaGreen," Vallejo-Model"," #2f4844",
+53,BasaltGrey," Vallejo-Model"," #576860",
+54,MediumSeaGrey," Vallejo-Model"," #869393",
+55,LeatherBrown," Vallejo-Model"," #4a4639",
+56,ChocolateBrown," Vallejo-Model"," #5f5047",
+57,USFieldDrab," Vallejo-Model"," #705d43",
+58,TanEarth," Vallejo-Model"," #9c7962",
+59,BeigeBrown," Vallejo-Model"," #78584a",
+60,BrownSand," Vallejo-Model"," #b08064",
+61,GoldBrown," Vallejo-Model"," #ba8636",
+62,GreenBrown," Vallejo-Model"," #8d7b55",
+63,KhakiGrey," Vallejo-Model"," #8b7f5d",
+64,YellowGreen," Vallejo-Model"," #91864b",
+65,Middlestone," Vallejo-Model"," #9c9660",
+66,SilverGrey," Vallejo-Model"," #d8dfd5",
+67,StoneGrey," Vallejo-Model"," #959980",
+68,PastelGreen," Vallejo-Model"," #a4bb99",
+69,GreenGrey," Vallejo-Model"," #827e61",
+70,BrownViolet," Vallejo-Model"," #4e5d4d",
+71,OliveGrey," Vallejo-Model"," #39584f",
+72,USAOliveDrab," Vallejo-Model"," #3b4947",
+73,ReflectiveGreen," Vallejo-Model"," #496244",
+74,IntermediateGreen," Vallejo-Model"," #49944f",
+75,YellowOlive," Vallejo-Model"," #26392e",
+76,USDarkGreen," Vallejo-Model"," #5b6955",
+77,Cam.OliveGreen," Vallejo-Model"," #3c5549",
+78,GunshipGreen," Vallejo-Model"," #3d685e",
+79,GermanCam.ExtraDarkGreen," Vallejo-Model"," #30504a",
+80,BronceGreen," Vallejo-Model"," #2a534f",
+81,DarkSeaBlue," Vallejo-Model"," #2a4048",
+82,DarkPrussianBlue," Vallejo-Model"," #192c43",
+83,FrenchMirageBlue," Vallejo-Model"," #557880",
+84,PastelBlue," Vallejo-Model"," #67859b",
+85,Azure," Vallejo-Model"," #717cad",
+86,IntermediateBlue," Vallejo-Model"," #607a80",
+87,DarkBlueGrey," Vallejo-Model"," #5c7476",
+88,BlueGreyPale," Vallejo-Model"," #9ea7a5",
+89,PaleBlue," Vallejo-Model"," #83b5b2",
+90,PaleGreyBlue," Vallejo-Model"," #bacdd0",
+91,CarmineRed," Vallejo-Model"," #b73035",
+92,Vermillion," Vallejo-Model"," #d22b2d",
+93,OrangeRed," Vallejo-Model"," #e34c26",
+94,LightOrange," Vallejo-Model"," #f68627",
+95,TanYellow," Vallejo-Model"," #b5915d",
+96,YellowOchre," Vallejo-Model"," #c19448",
+97,GreenOchre," Vallejo-Model"," #a98969",
+98,DeepYellow," Vallejo-Model"," #ffe30c",
+99,SandYellow," Vallejo-Model"," #d7bf75",
+100,Beige," Vallejo-Model"," #dbc58e",
+101,Ivory," Vallejo-Model"," #eff1d9",
+102,GermanUniform," Vallejo-Model"," #286254",
+103,EnglishUniform," Vallejo-Model"," #715833",
+104,UniformGreen," Vallejo-Model"," #577a38",
+105,JapanUniformWW2," Vallejo-Model"," #998546",
+106,RussianUniformWW2," Vallejo-Model"," #606d53",
+107,Blue," Vallejo-Model"," #043667",
+108,Red," Vallejo-Model"," #91323a",
+109,DarkFlesh," Vallejo-Model"," #d9a262",
+110,LightFlesh," Vallejo-Model"," #feedd0",
+111,LightBrown," Vallejo-Model"," #bf764e",
+112,DarkBlue," Vallejo-Model"," #0d5a86",
+113,SaddleBrown," Vallejo-Model"," #89584f",
+114,BurntUmber," Vallejo-Model"," #665148",
+115,LightGreen," Vallejo-Model"," #00a850",
+116,GreyBlue," Vallejo-Model"," #45708d",
+117,OldRose," Vallejo-Model"," #d47b7d",
+118,Magenta," Vallejo-Model"," #a92a56",
+119,DarkRed," Vallejo-Model"," #a24a46",
+120,DarkSand," Vallejo-Model"," #d1b47e",
+121,GoldenYellow," Vallejo-Model"," #f7c65e",
+122,LightYellow," Vallejo-Model"," #f7ea62",
+123,Black," Vallejo-Model"," #252b31",
+124,White," Vallejo-Model"," #ffffff",
+125,LemonYellow," Vallejo-Model"," #fef10e",
+126,FlatYellow," Vallejo-Model"," #ffcd25",
+127,YellowGreen," Vallejo-Model"," #d9e02a",
+128,FlatFlesh," Vallejo-Model"," #d8a977",
+129,ClearOrange," Vallejo-Model"," #f1552c",
+130,FlatRed," Vallejo-Model"," #aa3037",
+131,Pink," Vallejo-Model"," #d37497",
+132,Purple," Vallejo-Model"," #834a6c",
+133,Violet," Vallejo-Model"," #4b2f65",
+134,SkyBlue," Vallejo-Model"," #86d6f7",
+135,FlatBlue," Vallejo-Model"," #336991",
+136,MediumBlue," Vallejo-Model"," #066588",
+137,FieldBlue," Vallejo-Model"," #436872",
+138,PrussianBlue," Vallejo-Model"," #2a546e",
+139,Turquoise," Vallejo-Model"," #008e9c",
+140,OliveGreen," Vallejo-Model"," #6a8b3a",
+141,FlatGreen," Vallejo-Model"," #2a6531",
+142,ParkGreenFlat," Vallejo-Model"," #008c5d",
+143,DeepGreen," Vallejo-Model"," #0a6b48",
+144,GreyGrey," Vallejo-Model"," #aecbbb",
+145,LightGreenBlue," Vallejo-Model"," #6d9a95",
+146,LightSeaGrey," Vallejo-Model"," #97b4b5",
+147,GreenSky," Vallejo-Model"," #59ad84",
+148,MilitaryGreen," Vallejo-Model"," #3e5848",
+149,Buff," Vallejo-Model"," #d2ca9f",
+150,DesertYellow," Vallejo-Model"," #b19151",
+151,DarkYellow," Vallejo-Model"," #9d9059",
+152,GermanCam.DarkGreen," Vallejo-Model"," #2f4845",
+153,BlackGreen," Vallejo-Model"," #19423e",
+154,OrangeBrown," Vallejo-Model"," #b86f44",
+155,CavalryBrown," Vallejo-Model"," #853f3d",
+156,FlatEarth," Vallejo-Model"," #87643c",
+157,FlatBrown," Vallejo-Model"," #764841",
+158,HullRed," Vallejo-Model"," #522724",
+159,DeckTan," Vallejo-Model"," #bec5b3",
+160,MediumGrey," Vallejo-Model"," #909b85",
+161,Khaki," Vallejo-Model"," #969163",
+162,SkyGrey," Vallejo-Model"," #b3b6b2",
+163,LightGrey," Vallejo-Model"," #949c9a",
+164,DarkSeaGrey," Vallejo-Model"," #787d7a",
+165,NeutralGrey," Vallejo-Model"," #64767a",
+166,WhiteGrey," Vallejo-Model"," #eef1ec",
+167,DarkGrey," Vallejo-Model"," #233e3d",
+168,GermanGrey," Vallejo-Model"," #192f30",
+169,EmperorsChildren," Citadel"," #bd3f75"," 6.03"
+170,CadianFleshtone," Citadel"," #cb7953"," 7.62"
+171,BestigorFlesh," Citadel"," #D38A57"," 4.51"
+172,TrollSlayerOrange," Citadel"," #eb641b"," 4.93"
+173,ScreamingSkull," Citadel"," #d9d8a6"," 7.86"
+174,StegadonScaleGreen," Citadel"," #004261"," 8.27"
+175,TempleGuardBlue," Citadel"," #35998e"," 5.43"
+176,AlaitocBlue," Citadel"," #2e5689"," 4.07"
+177,XereusPurple," Citadel"," #4b205c"," 3.55"
+178,GenestealerPurple," Citadel"," #7c5ca4"," 2.26"
+179,ScreamerPink," Citadel"," #831740"," 7.68"
+180,RhinoxHide," Citadel"," #4e3433"," 5.62"
+181,FlayedOneFlesh," Citadel"," #f3ca8a"," 7.80"
+182,MechanicusStandardGrey," Citadel"," #454e50"," 4.42"
+183,WildRiderRed," Citadel"," #e21516"," 4.08"
+184,BugmansGlow," Citadel"," #8c5144"," 4.21"
+185,KarakStone," Citadel"," #c1a069"," 4.89"
+186,CeramiteWhite," Citadel"," #ffffff"," 7.80"
+187,BanebladeBrown," Citadel"," #99826b"," 4.93"
+188,RhinoxHide," Citadel"," #4e3433"," 6.59"
+189,DeathWorldForest," Citadel"," #666c2d"," 6.91"
+190,RhinoxHide," Citadel"," #4e3433"," 5.99"
+191,BanebladeBrown," Citadel"," #99826b"," 5.19"
+192,StormverminFur," Citadel"," #7d736a"," 5.78"
+193,TuskgorFur," Citadel"," #8e3734"," 8.40"
+194,MootGreen," Citadel"," #57aa2d"," 4.84"
+195,SquigOrange," Citadel"," #b04d3e"," 5.15"
+196,SkavenblightDinge," Citadel"," #4f4840"," 6.85"
+197,SkarsnikGreen," Citadel"," #5e9067"," 7.28"
+198,LugganathOrange," Citadel"," #F79E86"," 0.72"
+199,EshinGrey," Citadel"," #535659"," 3.74"
+200,KriegKhaki," Citadel"," #C0BD81"," 7.24"
+201,KabaliteGreen," Citadel"," #008660"," 3.66"
+202,CalgarBlue," Citadel"," #456eb5"," 6.55"
+203,AhrimanBlue," Citadel"," #1F8C9C"," 2.89"
+204,HoethBlue," Citadel"," #4f7fb5"," 6.90"
+205,BanebladeBrown," Citadel"," #99826b"," 5.26"
+206,LothernBlue," Citadel"," #3ba1d1"," 2.34"
+207,KislevFlesh," Citadel"," #dbad75"," 5.46"
+208,BugmansGlow," Citadel"," #8c5144"," 4.94"
+209,KislevFlesh," Citadel"," #dbad75"," 4.98"
+210,WarpstoneGlow," Citadel"," #257326"," 4.20"
+211,TrollSlayerOrange," Citadel"," #eb641b"," 3.57"
+212,RatskinFlesh," Citadel"," #AD6B4C"," 8.19"
+213,ElysianGreen," Citadel"," #81932e"," 3.46"
+214,ScreamingSkull," Citadel"," #d9d8a6"," 11.84"
+215,RhinoxHide," Citadel"," #4e3433"," 6.63"
+216,BestigorFlesh," Citadel"," #D38A57"," 5.66"
+217,AbaddonBlack," Citadel"," #010100"," 0.40"
+218,DryadBark," Citadel"," #3b342e"," 9.11"
+219,EshinGrey," Citadel"," #535659"," 2.32"
+220,DarkReaper," Citadel"," #3B5150"," 5.25"
+221,DarkReaper," Citadel"," #3B5150"," 4.58"
+222,EshinGrey," Citadel"," #535659"," 9.38"
+223,SlaaneshGrey," Citadel"," #8E8C97"," 8.05"
+224,SkavenblightDinge," Citadel"," #4f4840"," 3.04"
+225,SkavenblightDinge," Citadel"," #4f4840"," 5.12"
+226,SteelLegionDrab," Citadel"," #695634"," 4.14"
+227,BanebladeBrown," Citadel"," #99826b"," 4.25"
+228,GorthorBrown," Citadel"," #6e4e46"," 4.74"
+229,BanebladeBrown," Citadel"," #99826b"," 6.45"
+230,TallarnSand," Citadel"," #ab7d00"," 6.29"
+231,BanebladeBrown," Citadel"," #99826b"," 6.19"
+232,BanebladeBrown," Citadel"," #99826b"," 5.93"
+233,ZandriDust," Citadel"," #a89758"," 7.17"
+234,ZandriDust," Citadel"," #a89758"," 4.04"
+235,UlthuanGrey," Citadel"," #d2e4df"," 4.34"
+236,AdministratumGrey," Citadel"," #9da299"," 6.76"
+237,GaussBlasterGreen," Citadel"," #84C3AA"," 10.35"
+238,DeathGuardArmor," Citadel"," #848A66"," 5.39"
+239,DarkReaper," Citadel"," #3B5150"," 9.41"
+240,DarkReaper," Citadel"," #3B5150"," 4.95"
+241,DarkReaper," Citadel"," #3B5150"," 3.76"
+242,Waaagh!Flesh," Citadel"," #275627"," 9.66"
+243,SkarsnikGreen," Citadel"," #5e9067"," 5.87"
+244,DryadBark," Citadel"," #3b342e"," 10.07"
+245,Dawnstone," Citadel"," #7b7e74"," 10.77"
+246,DarkReaper," Citadel"," #3B5150"," 5.69"
+247,ThunderhawkBlue," Citadel"," #417074"," 7.62"
+248,DarkReaper," Citadel"," #3B5150"," 3.69"
+249,DarkReaper," Citadel"," #3B5150"," 4.10"
+250,MechanicusStandardGrey," Citadel"," #454e50"," 8.04"
+251,KantorBlue," Citadel"," #06234f"," 10.00"
+252,TheFang," Citadel"," #457479"," 3.93"
+253,RussGrey," Citadel"," #55768a"," 6.25"
+254,HoethBlue," Citadel"," #4f7fb5"," 6.64"
+255,TheFang," Citadel"," #457479"," 6.07"
+256,TheFang," Citadel"," #457479"," 5.38"
+257,CelestraGrey," Citadel"," #9caeae"," 3.58"
+258,CelestraGrey," Citadel"," #9caeae"," 6.19"
+259,UlthuanGrey," Citadel"," #d2e4df"," 8.92"
+260,SquigOrange," Citadel"," #b04d3e"," 6.03"
+261,WildRiderRed," Citadel"," #e21516"," 4.75"
+262,JokaeroOrange," Citadel"," #e6200f"," 5.71"
+263,FireDragonBright," Citadel"," #f1844a"," 5.34"
+264,KarakStone," Citadel"," #c1a069"," 5.43"
+265,KarakStone," Citadel"," #c1a069"," 5.57"
+266,BanebladeBrown," Citadel"," #99826b"," 4.67"
+267,YrielYellow," Citadel"," #ffda00"," 2.96"
+268,UshabtiBone," Citadel"," #c6c180"," 5.20"
+269,FlayedOneFlesh," Citadel"," #f3ca8a"," 6.08"
+270,CeramiteWhite," Citadel"," #ffffff"," 9.69"
+271,DarkReaper," Citadel"," #3B5150"," 9.16"
+272,SteelLegionDrab," Citadel"," #695634"," 2.44"
+273,LorenForest," Citadel"," #5b7426"," 4.51"
+274,ZandriDust," Citadel"," #a89758"," 6.67"
+275,Dawnstone," Citadel"," #7b7e74"," 10.05"
+276,MacraggeBlue," Citadel"," #14397a"," 5.88"
+277,TuskgorFur," Citadel"," #8e3734"," 3.26"
+278,KislevFlesh," Citadel"," #dbad75"," 4.00"
+279,CeramiteWhite," Citadel"," #ffffff"," 10.91"
+280,CadianFleshtone," Citadel"," #cb7953"," 2.95"
+281,AlaitocBlue," Citadel"," #2e5689"," 5.56"
+282,BugmansGlow," Citadel"," #8c5144"," 3.47"
+283,GorthorBrown," Citadel"," #6e4e46"," 3.74"
+284,SybariteGreen," Citadel"," #36a062"," 4.74"
+285,RussGrey," Citadel"," #55768a"," 4.09"
+286,DeathclawBrown," Citadel"," #ba6952"," 11.98"
+287,PinkHorror," Citadel"," #96325c"," 5.15"
+288,SquigOrange," Citadel"," #b04d3e"," 5.05"
+289,KislevFlesh," Citadel"," #dbad75"," 4.66"
+290,FlayedOneFlesh," Citadel"," #f3ca8a"," 5.84"
+291,FlashGitzYellow," Citadel"," #ffee00"," 6.59"
+292,DryadBark," Citadel"," #3b342e"," 10.69"
+293,CeramiteWhite," Citadel"," #ffffff"," 0.00"
+294,DornYellow," Citadel"," #FFF200"," 0.42"
+295,YrielYellow," Citadel"," #ffda00"," 4.79"
+296,FlashGitzYellow," Citadel"," #ffee00"," 8.48"
+297,KislevFlesh," Citadel"," #dbad75"," 1.99"
+298,TrollSlayerOrange," Citadel"," #eb641b"," 5.53"
+299,TuskgorFur," Citadel"," #8e3734"," 5.70"
+300,EmperorsChildren," Citadel"," #bd3f75"," 14.69"
+301,PinkHorror," Citadel"," #96325c"," 9.44"
+302,XereusPurple," Citadel"," #4b205c"," 5.22"
+303,BlueHorror," Citadel"," #A2BAD2"," 11.01"
+304,CaledorSky," Citadel"," #38689c"," 4.82"
+305,CaledorSky," Citadel"," #38689c"," 9.73"
+306,ThunderhawkBlue," Citadel"," #417074"," 4.78"
+307,StegadonScaleGreen," Citadel"," #004261"," 8.19"
+308,AhrimanBlue," Citadel"," #1F8C9C"," 1.68"
+309,StrakenGreen," Citadel"," #6e8611"," 6.30"
+310,Waaagh!Flesh," Citadel"," #275627"," 5.85"
+311,KabaliteGreen," Citadel"," #008660"," 3.05"
+312,WarbossGreen," Citadel"," #3b7d54"," 8.27"
+313,GaussBlasterGreen," Citadel"," #84C3AA"," 9.53"
+314,TempleGuardBlue," Citadel"," #35998e"," 9.08"
+315,CelestraGrey," Citadel"," #9caeae"," 3.00"
+316,SybariteGreen," Citadel"," #36a062"," 8.37"
+317,DarkReaper," Citadel"," #3B5150"," 7.52"
+318,ScreamingSkull," Citadel"," #d9d8a6"," 5.08"
+319,ZandriDust," Citadel"," #a89758"," 4.31"
+320,ZandriDust," Citadel"," #a89758"," 3.50"
+321,DarkReaper," Citadel"," #3B5150"," 4.37"
+322,IncubiDarkness," Citadel"," #094345"," 3.50"
+323,RatskinFlesh," Citadel"," #AD6B4C"," 3.78"
+324,TuskgorFur," Citadel"," #8e3734"," 3.65"
+325,SteelLegionDrab," Citadel"," #695634"," 8.62"
+326,GorthorBrown," Citadel"," #6e4e46"," 3.64"
+327,RhinoxHide," Citadel"," #4e3433"," 5.93"
+328,PallidWychFlesh," Citadel"," #d6d5c4"," 6.90"
+329,AdministratumGrey," Citadel"," #9da299"," 5.94"
+330,DeathGuardArmor," Citadel"," #848A66"," 5.53"
+331,CelestraGrey," Citadel"," #9caeae"," 6.73"
+332,AdministratumGrey," Citadel"," #9da299"," 4.39"
+333,Dawnstone," Citadel"," #7b7e74"," 3.80"
+334,TheFang," Citadel"," #457479"," 7.67"
+335,CeramiteWhite," Citadel"," #ffffff"," 5.76"
+336,IncubiDarkness," Citadel"," #094345"," 4.94"
+337,IncubiDarkness," Citadel"," #094345"," 9.75"
+338,Tan," Vallejo-Game"," #9f4746"," 10.81"
+339,DwarfSkin," Vallejo-Game"," #cc7c67"," 3.63"
+340,BronzeFleshtone," Vallejo-Game"," #db945c"," 5.19"
+341,HeavyOrange," Vallejo-Game"," #ee5527"," 0.34"
+342,FluoYellow," Vallejo-Game"," #eeea50"," 8.87"
+343,HeavyBlue," Vallejo-Game"," #29556d"," 8.78"
+344,JadeGreen," Vallejo-Game"," #128379"," 8.17"
+345,SombreGrey," Vallejo-Game"," #4c5c7d"," 6.32"
+346,HeavyViolet," Vallejo-Game"," #4c2e65"," 1.97"
+347,SombreGrey," Vallejo-Game"," #4c5c7d"," 12.99"
+348,WarlordPurple," Vallejo-Game"," #7d1a44"," 5.47"
+349,DarkFleshtone," Vallejo-Game"," #4f2b26"," 6.48"
+350,CadmiumSkin," Vallejo-Game"," #fab78a"," 1.90"
+351,CharredBrown," Vallejo-Game"," #39343b"," 9.15"
+352,HotOrange," Vallejo-Game"," #e43027"," 2.42"
+353,Tan," Vallejo-Game"," #9f4746"," 3.63"
+354,HeavyKhaki," Vallejo-Game"," #9d965d"," 9.89"
+355,Offwhite," Vallejo-Game"," #f5f4da"," 5.84"
+356,HeavyWarmGrey," Vallejo-Game"," #939066"," 5.88"
+357,DarkFleshtone," Vallejo-Game"," #4f2b26"," 5.62"
+358,HeavyGreen," Vallejo-Game"," #566840"," 1.57"
+359,DarkFleshtone," Vallejo-Game"," #4f2b26"," 5.26"
+360,DesertYellow," Vallejo-Game"," #8e7845"," 5.33"
+361,HeavyBrown," Vallejo-Game"," #705d41"," 10.06"
+362,ScarletRed," Vallejo-Game"," #741330"," 7.02"
+363,ScorpionGreen," Vallejo-Game"," #48b851"," 6.54"
+364,HotOrange," Vallejo-Game"," #e43027"," 5.16"
+365,HeavyBrown," Vallejo-Game"," #705d41"," 9.36"
+366,GoblinGreen," Vallejo-Game"," #23743c"," 10.42"
+367,RosyFlesh," Vallejo-Game"," #f89e84"," 1.23"
+368,ColdGrey," Vallejo-Game"," #54646d"," 6.06"
+369,ElficFlesh," Vallejo-Game"," #cdc29c"," 1.13"
+370,FoulGreen," Vallejo-Game"," #239378"," 3.76"
+371,SombreGrey," Vallejo-Game"," #4c5c7d"," 8.56"
+372,SteelGrey," Vallejo-Game"," #64889d"," 10.38"
+373,ElectricBlue," Vallejo-Game"," #008cbf"," 3.03"
+374,HeavySkintone," Vallejo-Game"," #aa7b62"," 1.37"
+375,ElectricBlue," Vallejo-Game"," #008cbf"," 9.38"
+376,CadmiumSkin," Vallejo-Game"," #fab78a"," 4.91"
+377,HeavySienna," Vallejo-Game"," #744642"," 3.32"
+378,PaleYellow," Vallejo-Game"," #d5c179"," 4.60"
+379,MutationGreen," Vallejo-Game"," #296934"," 1.78"
+380,OrangeFire," Vallejo-Game"," #f1652e"," 0.84"
+381,HeavyOchre," Vallejo-Game"," #a87536"," 1.40"
+382,HeavyWarmGrey," Vallejo-Game"," #939066"," 9.41"
+383,FluoYellow," Vallejo-Game"," #eeea50"," 7.35"
+384,DarkFleshtone," Vallejo-Game"," #4f2b26"," 8.15"
+385,HeavyGoldBrown," Vallejo-Game"," #ba8636"," 4.85"
+386,Black," Vallejo-Game"," #000000"," 0.27"
+387,HeavyCharcoal," Vallejo-Game"," #1c2e2e"," 6.00"
+388,ColdGrey," Vallejo-Game"," #54646d"," 5.32"
+389,ColdGrey," Vallejo-Game"," #54646d"," 10.10"
+390,HeavyBlackGreen," Vallejo-Game"," #18433d"," 5.10"
+391,HeavyGrey," Vallejo-Game"," #626d54"," 8.63"
+392,StonewallGrey," Vallejo-Game"," #828e95"," 4.07"
+393,BeastyBrown," Vallejo-Game"," #55432d"," 7.15"
+394,BeastyBrown," Vallejo-Game"," #55432d"," 8.47"
+395,HeavyBrown," Vallejo-Game"," #705d41"," 0.70"
+396,HeavySkintone," Vallejo-Game"," #aa7b62"," 3.78"
+397,Earth," Vallejo-Game"," #6f563d"," 5.60"
+398,HeavySkintone," Vallejo-Game"," #aa7b62"," 2.17"
+399,HeavyGoldBrown," Vallejo-Game"," #ba8636"," 0.00"
+400,DesertYellow," Vallejo-Game"," #8e7845"," 3.87"
+401,Khaki," Vallejo-Game"," #8c806d"," 4.69"
+402,HeavyWarmGrey," Vallejo-Game"," #939066"," 5.66"
+403,HeavyKhaki," Vallejo-Game"," #9d965d"," 0.75"
+404,Verdigris," Vallejo-Game"," #b3ceca"," 9.97"
+405,HeavyWarmGrey," Vallejo-Game"," #939066"," 7.24"
+406,DeadFlesh," Vallejo-Game"," #bcb686"," 10.09"
+407,Khaki," Vallejo-Game"," #8c806d"," 4.81"
+408,HeavyGrey," Vallejo-Game"," #626d54"," 7.79"
+409,CaymanGreen," Vallejo-Game"," #285648"," 4.24"
+410,HeavyBlackGreen," Vallejo-Game"," #18433d"," 9.34"
+411,HeavyGreen," Vallejo-Game"," #566840"," 5.13"
+412,GoblinGreen," Vallejo-Game"," #23743c"," 12.49"
+413,YellowOlive," Vallejo-Game"," #063b2f"," 6.81"
+414,HeavyGrey," Vallejo-Game"," #626d54"," 2.90"
+415,CaymanGreen," Vallejo-Game"," #285648"," 4.84"
+416,CaymanGreen," Vallejo-Game"," #285648"," 7.95"
+417,CaymanGreen," Vallejo-Game"," #285648"," 5.05"
+418,CaymanGreen," Vallejo-Game"," #285648"," 5.07"
+419,ScurvyGreen," Vallejo-Game"," #09474e"," 7.15"
+420,RoyalPurple," Vallejo-Game"," #23264f"," 9.72"
+421,ColdGrey," Vallejo-Game"," #54646d"," 8.22"
+422,SteelGrey," Vallejo-Game"," #64889d"," 1.77"
+423,SteelGrey," Vallejo-Game"," #64889d"," 12.15"
+424,SteelGrey," Vallejo-Game"," #64889d"," 8.69"
+425,ColdGrey," Vallejo-Game"," #54646d"," 7.37"
+426,HeavyBlueGrey," Vallejo-Game"," #9ca7a7"," 1.22"
+427,HeavyBlueGrey," Vallejo-Game"," #9ca7a7"," 7.96"
+428,Verdigris," Vallejo-Game"," #b3ceca"," 4.10"
+429,ScarletBloodRed," Vallejo-Game"," #b72a38"," 1.86"
+430,BloodyRed," Vallejo-Game"," #bf282e"," 4.51"
+431,HeavyOrange," Vallejo-Game"," #ee5527"," 3.46"
+432,FilthyBrown," Vallejo-Game"," #f58d2b"," 2.12"
+433,HeavyGoldBrown," Vallejo-Game"," #ba8636"," 7.52"
+434,PlagueBrown," Vallejo-Game"," #cc9b34"," 4.93"
+435,HeavySkintone," Vallejo-Game"," #aa7b62"," 6.48"
+436,MoonYellow," Vallejo-Game"," #fff103"," 4.60"
+437,PaleYellow," Vallejo-Game"," #d5c179"," 1.16"
+438,PaleYellow," Vallejo-Game"," #d5c179"," 4.31"
+439,Offwhite," Vallejo-Game"," #f5f4da"," 1.67"
+440,CaymanGreen," Vallejo-Game"," #285648"," 4.79"
+441,HeavyBrown," Vallejo-Game"," #705d41"," 3.42"
+442,HeavyGreen," Vallejo-Game"," #566840"," 7.89"
+443,DesertYellow," Vallejo-Game"," #8e7845"," 5.34"
+444,HeavyGrey," Vallejo-Game"," #626d54"," 0.71"
+445,MagicBlue," Vallejo-Game"," #024381"," 6.64"
+446,HeavyRed," Vallejo-Game"," #943238"," 1.17"
+447,BronzeFleshtone," Vallejo-Game"," #db945c"," 5.67"
+448,Offwhite," Vallejo-Game"," #f5f4da"," 4.93"
+449,HeavySkintone," Vallejo-Game"," #aa7b62"," 5.69"
+450,HeavyBlue," Vallejo-Game"," #29556d"," 6.35"
+451,HeavySienna," Vallejo-Game"," #744642"," 7.82"
+452,Earth," Vallejo-Game"," #6f563d"," 7.47"
+453,ScorpionGreen," Vallejo-Game"," #48b851"," 7.51"
+454,ColdGrey," Vallejo-Game"," #54646d"," 8.10"
+455,DwarfSkin," Vallejo-Game"," #cc7c67"," 7.88"
+456,HeavyRed," Vallejo-Game"," #943238"," 9.99"
+457,Tan," Vallejo-Game"," #9f4746"," 1.43"
+458,BoneWhite," Vallejo-Game"," #e8be86"," 5.79"
+459,BoneWhite," Vallejo-Game"," #e8be86"," 7.56"
+460,FluoYellow," Vallejo-Game"," #eeea50"," 2.57"
+461,HeavyCharcoal," Vallejo-Game"," #1c2e2e"," 6.21"
+462,DeadWhite," Vallejo-Game"," #ffffff"," 0.00"
+463,MoonYellow," Vallejo-Game"," #fff103"," 0.27"
+464,SunYellow," Vallejo-Game"," #ffcf07"," 1.35"
+465,FluoYellow," Vallejo-Game"," #eeea50"," 5.05"
+466,BoneWhite," Vallejo-Game"," #e8be86"," 7.38"
+467,HeavyOrange," Vallejo-Game"," #ee5527"," 1.03"
+468,ScarletBloodRed," Vallejo-Game"," #b72a38"," 2.59"
+469,SquidPink," Vallejo-Game"," #da7fb5"," 7.78"
+470,WarlordPurple," Vallejo-Game"," #7d1a44"," 14.76"
+471,HeavyViolet," Vallejo-Game"," #4c2e65"," 0.48"
+472,GlacierBlue," Vallejo-Game"," #acd0ee"," 6.66"
+473,SombreGrey," Vallejo-Game"," #4c5c7d"," 7.04"
+474,HeavyBlue," Vallejo-Game"," #29556d"," 6.84"
+475,ColdGrey," Vallejo-Game"," #54646d"," 4.66"
+476,HeavyBlue," Vallejo-Game"," #29556d"," 1.17"
+477,SteelGrey," Vallejo-Game"," #64889d"," 10.74"
+478,CamoflageGreen," Vallejo-Game"," #71753a"," 9.44"
+479,MutationGreen," Vallejo-Game"," #296934"," 1.57"
+480,FoulGreen," Vallejo-Game"," #239378"," 6.74"
+481,SickGreen," Vallejo-Game"," #096638"," 4.34"
+482,Verdigris," Vallejo-Game"," #b3ceca"," 5.22"
+483,StonewallGrey," Vallejo-Game"," #828e95"," 9.57"
+484,HeavyBlueGrey," Vallejo-Game"," #9ca7a7"," 5.59"
+485,FoulGreen," Vallejo-Game"," #239378"," 11.29"
+486,CaymanGreen," Vallejo-Game"," #285648"," 5.05"
+487,ElficFlesh," Vallejo-Game"," #cdc29c"," 3.00"
+488,HeavyGoldBrown," Vallejo-Game"," #ba8636"," 6.30"
+489,HeavyKhaki," Vallejo-Game"," #9d965d"," 2.57"
+490,HeavyBlackGreen," Vallejo-Game"," #18433d"," 5.31"
+491,HeavyBlackGreen," Vallejo-Game"," #18433d"," 1.16"
+492,HeavySkintone," Vallejo-Game"," #aa7b62"," 6.28"
+493,HeavySienna," Vallejo-Game"," #744642"," 4.68"
+494,LeatherBrown," Vallejo-Game"," #7b5d2a"," 4.93"
+495,HeavySienna," Vallejo-Game"," #744642"," 1.49"
+496,DarkFleshtone," Vallejo-Game"," #4f2b26"," 2.05"
+497,Verdigris," Vallejo-Game"," #b3ceca"," 9.09"
+498,HeavyWarmGrey," Vallejo-Game"," #939066"," 9.65"
+499,HeavyWarmGrey," Vallejo-Game"," #939066"," 1.28"
+500,HeavyBlueGrey," Vallejo-Game"," #9ca7a7"," 6.99"
+501,HeavyBlueGrey," Vallejo-Game"," #9ca7a7"," 4.21"
+502,StonewallGrey," Vallejo-Game"," #828e95"," 8.64"
+503,ColdGrey," Vallejo-Game"," #54646d"," 7.55"
+504,DeadWhite," Vallejo-Game"," #ffffff"," 5.76"
+505,HeavyBlackGreen," Vallejo-Game"," #18433d"," 4.62"
+506,HeavyCharcoal," Vallejo-Game"," #1c2e2e"," 1.12"
+507,MurderousMagenta," P3Formula"," #a81f5e"," 7.92"
+508,KhardicFlesh," P3Formula"," #cb7b5b"," 5.82"
+509,BeastHide," P3Formula"," #b1956b"," 6.65"
+510,KhadorRedBase," P3Formula"," #ee2824"," 7.74"
+511,MenothWhiteBase," P3Formula"," #efefbb"," 7.67"
+512,GreatcoatGrey," P3Formula"," #4d5861"," 9.71"
+513,TrollbloodBase," P3Formula"," #13899b"," 7.76"
+514,CygnarBaseBlue," P3Formula"," #124b9b"," 7.36"
+515,BeatenPurple," P3Formula"," #552a72"," 3.16"
+516,CygnarBaseBlue," P3Formula"," #124b9b"," 16.77"
+517,MurderousMagenta," P3Formula"," #a81f5e"," 14.93"
+518,SanguineBase," P3Formula"," #6c160f"," 14.17"
+519,MidlundFlesh," P3Formula"," #f0a983"," 6.84"
+520,GreatcoatGrey," P3Formula"," #4d5861"," 7.22"
+521,KhadorRedBase," P3Formula"," #ee2824"," 4.05"
+522,Bloodstone," P3Formula"," #9e4822"," 9.70"
+523,BeastHide," P3Formula"," #b1956b"," 2.28"
+524,MenothWhiteHighlight," P3Formula"," #f3f4de"," 4.38"
+525,CryxBaneHighlight," P3Formula"," #93907d"," 4.81"
+526,BattlefieldBrown," P3Formula"," #32251c"," 12.66"
+527,ThornwoodGreen," P3Formula"," #65654b"," 6.64"
+528,BattlefieldBrown," P3Formula"," #32251c"," 11.24"
+529,GunCorpsBrown," P3Formula"," #937d48"," 4.75"
+530,BastionGrey," P3Formula"," #777965"," 11.80"
+531,SanguineBase," P3Formula"," #6c160f"," 9.23"
+532,NecrotiteGreen," P3Formula"," #7fc348"," 8.05"
+533,KhadorRedBase," P3Formula"," #ee2824"," 6.96"
+534,ThornwoodGreen," P3Formula"," #65654b"," 7.01"
+535,OrdicOlive," P3Formula"," #6e7e36"," 9.37"
+536,MidlundFlesh," P3Formula"," #f0a983"," 6.62"
+537,GreatcoatGrey," P3Formula"," #4d5861"," 1.26"
+538,HammerfallKhaki," P3Formula"," #c8bf98"," 2.42"
+539,IosanGreen," P3Formula"," #22a854"," 14.00"
+540,CygnarBaseBlue," P3Formula"," #124b9b"," 7.72"
+541,TrollbloodBase," P3Formula"," #13899b"," 4.03"
+542,CygnarBlueHighlight," P3Formula"," #1f75bb"," 10.19"
+543,KhardicFlesh," P3Formula"," #cb7b5b"," 10.36"
+544,IronhullGrey," P3Formula"," #8e969b"," 13.03"
+545,MidlundFlesh," P3Formula"," #f0a983"," 6.66"
+546,IdrianFlesh," P3Formula"," #9b5e37"," 15.09"
+547,HammerfallKhaki," P3Formula"," #c8bf98"," 7.05"
+548,GnarlsGreen," P3Formula"," #126232"," 4.78"
+549,KhardicFlesh," P3Formula"," #cb7b5b"," 7.62"
+550,BloodtrackerBrown," P3Formula"," #a66a28"," 3.07"
+551,OrdicOlive," P3Formula"," #6e7e36"," 7.39"
+552,MenothWhiteBase," P3Formula"," #efefbb"," 8.36"
+553,BattlefieldBrown," P3Formula"," #32251c"," 15.63"
+554,EmberOrange," P3Formula"," #de8a2b"," 8.36"
+555,ThamarBlack," P3Formula"," #040707"," 1.69"
+556,CryxBaneBase," P3Formula"," #303924"," 14.27"
+557,GreatcoatGrey," P3Formula"," #4d5861"," 3.09"
+558,GreatcoatGrey," P3Formula"," #4d5861"," 8.64"
+559,CoalBlack," P3Formula"," #005a61"," 11.47"
+560,ThornwoodGreen," P3Formula"," #65654b"," 10.84"
+561,IronhullGrey," P3Formula"," #8e969b"," 3.61"
+562,CryxBaneBase," P3Formula"," #303924"," 9.73"
+563,ThornwoodGreen," P3Formula"," #65654b"," 12.00"
+564,ThornwoodGreen," P3Formula"," #65654b"," 7.03"
+565,BootstrapLeather," P3Formula"," #956939"," 10.31"
+566,ThornwoodGreen," P3Formula"," #65654b"," 12.77"
+567,KhardicFlesh," P3Formula"," #cb7b5b"," 7.69"
+568,RucksackTan," P3Formula"," #b4973f"," 7.51"
+569,GunCorpsBrown," P3Formula"," #937d48"," 4.26"
+570,GunCorpsBrown," P3Formula"," #937d48"," 6.33"
+571,GunCorpsBrown," P3Formula"," #937d48"," 4.42"
+572,BeastHide," P3Formula"," #b1956b"," 7.63"
+573,MenothWhiteHighlight," P3Formula"," #f3f4de"," 9.23"
+574,CryxBaneHighlight," P3Formula"," #93907d"," 4.08"
+575,TrollbloodHighlight," P3Formula"," #bab4a3"," 9.13"
+576,BastionGrey," P3Formula"," #777965"," 4.25"
+577,ThornwoodGreen," P3Formula"," #65654b"," 8.35"
+578,CoalBlack," P3Formula"," #005a61"," 10.28"
+579,GreatcoatGrey," P3Formula"," #4d5861"," 9.58"
+580,ThornwoodGreen," P3Formula"," #65654b"," 8.45"
+581,IosanGreen," P3Formula"," #22a854"," 7.78"
+582,CryxBaneBase," P3Formula"," #303924"," 6.44"
+583,ThornwoodGreen," P3Formula"," #65654b"," 5.81"
+584,GreatcoatGrey," P3Formula"," #4d5861"," 12.25"
+585,CoalBlack," P3Formula"," #005a61"," 10.95"
+586,CoalBlack," P3Formula"," #005a61"," 9.37"
+587,CoalBlack," P3Formula"," #005a61"," 7.01"
+588,GreatcoatGrey," P3Formula"," #4d5861"," 11.63"
+589,ExileBlue," P3Formula"," #203367"," 12.77"
+590,TrollbloodBase," P3Formula"," #13899b"," 11.03"
+591,IronhullGrey," P3Formula"," #8e969b"," 10.30"
+592,CygnarBlueHighlight," P3Formula"," #1f75bb"," 10.74"
+593,IronhullGrey," P3Formula"," #8e969b"," 13.05"
+594,GreatcoatGrey," P3Formula"," #4d5861"," 11.79"
+595,IronhullGrey," P3Formula"," #8e969b"," 7.20"
+596,ArcaneBlue," P3Formula"," #7acfd9"," 10.78"
+597,UnderbellyBlue," P3Formula"," #c0d4da"," 2.89"
+598,SkorneRed," P3Formula"," #b01f24"," 4.18"
+599,KhadorRedBase," P3Formula"," #ee2824"," 6.39"
+600,KhadorRedBase," P3Formula"," #ee2824"," 5.33"
+601,KhadorRedHighlight," P3Formula"," #f29042"," 3.11"
+602,BeastHide," P3Formula"," #b1956b"," 2.98"
+603,RucksackTan," P3Formula"," #b4973f"," 4.92"
+604,BeastHide," P3Formula"," #b1956b"," 5.27"
+605,CygnusYellow," P3Formula"," #f3e72e"," 3.24"
+606,HammerfallKhaki," P3Formula"," #c8bf98"," 7.18"
+607,HammerfallKhaki," P3Formula"," #c8bf98"," 5.53"
+608,MenothWhiteHighlight," P3Formula"," #f3f4de"," 1.38"
+609,CoalBlack," P3Formula"," #005a61"," 10.32"
+610,ThornwoodGreen," P3Formula"," #65654b"," 9.30"
+611,OrdicOlive," P3Formula"," #6e7e36"," 6.11"
+612,GunCorpsBrown," P3Formula"," #937d48"," 3.51"
+613,ThornwoodGreen," P3Formula"," #65654b"," 5.02"
+614,ExileBlue," P3Formula"," #203367"," 3.78"
+615,SkorneRed," P3Formula"," #b01f24"," 9.94"
+616,MidlundFlesh," P3Formula"," #f0a983"," 9.16"
+617,RynFlesh," P3Formula"," #fae3d1"," 5.14"
+618,KhardicFlesh," P3Formula"," #cb7b5b"," 4.01"
+619,GreatcoatGrey," P3Formula"," #4d5861"," 10.16"
+620,IdrianFlesh," P3Formula"," #9b5e37"," 11.69"
+621,ThornwoodGreen," P3Formula"," #65654b"," 12.72"
+622,IosanGreen," P3Formula"," #22a854"," 0.96"
+623,GreatcoatGrey," P3Formula"," #4d5861"," 11.28"
+624,KhardicFlesh," P3Formula"," #cb7b5b"," 11.44"
+625,MurderousMagenta," P3Formula"," #a81f5e"," 4.10"
+626,SanguineHighlight," P3Formula"," #c84959"," 9.35"
+627,HammerfallKhaki," P3Formula"," #c8bf98"," 6.54"
+628,Heartfire," P3Formula"," #f6b046"," 7.53"
+629,CygnusYellow," P3Formula"," #f3e72e"," 4.39"
+630,BattlefieldBrown," P3Formula"," #32251c"," 13.18"
+631,MorrowWhite," P3Formula"," #FEFBFD"," 1.84"
+632,CygnusYellow," P3Formula"," #f3e72e"," 3.80"
+633,SulfuricYellow," P3Formula"," #f0d233"," 4.00"
+634,CygnusYellow," P3Formula"," #f3e72e"," 5.34"
+635,MidlundFlesh," P3Formula"," #f0a983"," 7.65"
+636,KhadorRedBase," P3Formula"," #ee2824"," 7.58"
+637,SkorneRed," P3Formula"," #b01f24"," 4.58"
+638,SanguineHighlight," P3Formula"," #c84959"," 16.70"
+639,MurderousMagenta," P3Formula"," #a81f5e"," 14.01"
+640,BeatenPurple," P3Formula"," #552a72"," 4.54"
+641,ArcaneBlue," P3Formula"," #7acfd9"," 9.60"
+642,CygnarBlueHighlight," P3Formula"," #1f75bb"," 10.02"
+643,GreatcoatGrey," P3Formula"," #4d5861"," 9.94"
+644,GreatcoatGrey," P3Formula"," #4d5861"," 7.79"
+645,GreatcoatGrey," P3Formula"," #4d5861"," 7.54"
+646,TrollbloodBase," P3Formula"," #13899b"," 2.70"
+647,OrdicOlive," P3Formula"," #6e7e36"," 5.43"
+648,GnarlsGreen," P3Formula"," #126232"," 3.34"
+649,IosanGreen," P3Formula"," #22a854"," 12.64"
+650,GnarlsGreen," P3Formula"," #126232"," 6.07"
+651,UnderbellyBlue," P3Formula"," #c0d4da"," 10.66"
+652,IronhullGrey," P3Formula"," #8e969b"," 9.42"
+653,IronhullGrey," P3Formula"," #8e969b"," 11.29"
+654,IosanGreen," P3Formula"," #22a854"," 11.93"
+655,ThornwoodGreen," P3Formula"," #65654b"," 12.38"
+656,JackBone," P3Formula"," #d6d4aa"," 3.62"
+657,BeastHide," P3Formula"," #b1956b"," 4.79"
+658,BeastHide," P3Formula"," #b1956b"," 6.69"
+659,CoalBlack," P3Formula"," #005a61"," 11.23"
+660,CoalBlack," P3Formula"," #005a61"," 11.54"
+661,KhardicFlesh," P3Formula"," #cb7b5b"," 6.54"
+662,Bloodstone," P3Formula"," #9e4822"," 13.71"
+663,BootstrapLeather," P3Formula"," #956939"," 4.06"
+664,IdrianFlesh," P3Formula"," #9b5e37"," 15.81"
+665,BattlefieldBrown," P3Formula"," #32251c"," 10.42"
+666,TrollbloodHighlight," P3Formula"," #bab4a3"," 6.75"
+667,CryxBaneHighlight," P3Formula"," #93907d"," 5.57"
+668,TraitorGreen," P3Formula"," #809065"," 6.86"
+669,TrollbloodHighlight," P3Formula"," #bab4a3"," 7.16"
+670,IronhullGrey," P3Formula"," #8e969b"," 4.28"
+671,BastionGrey," P3Formula"," #777965"," 9.20"
+672,GreatcoatGrey," P3Formula"," #4d5861"," 12.18"
+673,MorrowWhite," P3Formula"," #FEFBFD"," 5.71"
+674,CryxBaneBase," P3Formula"," #303924"," 12.57"
+675,CryxBaneBase," P3Formula"," #303924"," 14.03"
+676,WarlockPurple," ArmyPainter"," #bb5b64"," 9.71"
+677,ScarTissue," ArmyPainter"," #ca8772"," 1.38"
+678,TrollClaws," ArmyPainter"," #cb8b4e"," 4.84"
+679,LavaOrange," ArmyPainter"," #e65525"," 1.89"
+680,MoonDust," ArmyPainter"," #e8d468"," 7.03"
+681,DarkSky," ArmyPainter"," #2b4b5f"," 6.18"
+682,RoyalCloak," ArmyPainter"," #15999c"," 1.82"
+683,GriffonBlue," ArmyPainter"," #215383"," 6.25"
+684,AlienPurple," ArmyPainter"," #50317b"," 4.74"
+685,DungeonGrey," ArmyPainter"," #686c71"," 14.17"
+686,CrustedSore," ArmyPainter"," #611624"," 11.26"
+687,DirtSpatter," ArmyPainter"," #5e3827"," 7.66"
+688,CorpsePale," ArmyPainter"," #edccad"," 7.22"
+689,DarkSky," ArmyPainter"," #2b4b5f"," 7.67"
+690,PureRed," ArmyPainter"," #cf2127"," 4.33"
+691,MarsRed," ArmyPainter"," #b73b37"," 8.60"
+692,KoboldSkin," ArmyPainter"," #c9a484"," 5.64"
+693,BrainmatterBeige," ArmyPainter"," #f1f0e0"," 1.71"
+694,FilthyCape," ArmyPainter"," #7c7863"," 9.86"
+695,DirtSpatter," ArmyPainter"," #5e3827"," 2.02"
+696,ArmyGreen," ArmyPainter"," #6e7645"," 6.23"
+697,DirtSpatter," ArmyPainter"," #5e3827"," 3.09"
+698,HempRope," ArmyPainter"," #94763a"," 6.10"
+699,WerewolfFur," ArmyPainter"," #785e4e"," 5.01"
+700,CrustedSore," ArmyPainter"," #611624"," 7.53"
+701,SnakeScales," ArmyPainter"," #8ab239"," 7.44"
+702,PureRed," ArmyPainter"," #cf2127"," 4.77"
+703,CryptWraith," ArmyPainter"," #606050"," 3.64"
+704,GoblinGreen," ArmyPainter"," #348941"," 4.53"
+705,CentaurSkin," ArmyPainter"," #deaba0"," 6.91"
+706,UniformGrey," ArmyPainter"," #5e6a73"," 8.61"
+707,SkeletonBone," ArmyPainter"," #d3c89d"," 1.60"
+708,ElementalBolt," ArmyPainter"," #009a82"," 6.16"
+709,VikingBlue," ArmyPainter"," #00609a"," 7.93"
+710,HydraTurquoise," ArmyPainter"," #199ba3"," 4.38"
+711,TroglodyteBlue," ArmyPainter"," #0889ba"," 3.73"
+712,TannedFlesh," ArmyPainter"," #bc745e"," 7.66"
+713,VoidshieldBlue," ArmyPainter"," #2ca2d9"," 2.70"
+714,BarbarianFlesh," ArmyPainter"," #e89c6c"," 7.87"
+715,GrimoirePurple," ArmyPainter"," #805259"," 5.93"
+716,SkeletonBone," ArmyPainter"," #d3c89d"," 7.77"
+717,Greenskin," ArmyPainter"," #136232"," 4.74"
+718,LavaOrange," ArmyPainter"," #e65525"," 5.42"
+719,HempRope," ArmyPainter"," #94763a"," 6.18"
+720,ScalyHide," ArmyPainter"," #859852"," 4.14"
+721,MoonDust," ArmyPainter"," #e8d468"," 9.24"
+722,CrustedSore," ArmyPainter"," #611624"," 8.49"
+723,TrollClaws," ArmyPainter"," #cb8b4e"," 3.58"
+724,MattBlack," ArmyPainter"," #231f20"," 12.15"
+725,NecromanceCloak," ArmyPainter"," #3c3d37"," 7.29"
+726,UniformGrey," ArmyPainter"," #5e6a73"," 6.72"
+727,CryptWraith," ArmyPainter"," #606050"," 8.30"
+728,NecromanceCloak," ArmyPainter"," #3c3d37"," 8.26"
+729,CryptWraith," ArmyPainter"," #606050"," 7.81"
+730,AshGrey," ArmyPainter"," #a2a5a4"," 8.19"
+731,HardenedCarapace," ArmyPainter"," #4c473f"," 2.49"
+732,DarkStone," ArmyPainter"," #605752"," 3.70"
+733,WerewolfFur," ArmyPainter"," #785e4e"," 4.98"
+734,FilthyCape," ArmyPainter"," #7c7863"," 10.08"
+735,WerewolfFur," ArmyPainter"," #785e4e"," 2.79"
+736,TannedFlesh," ArmyPainter"," #bc745e"," 6.60"
+737,SulphideOchre," ArmyPainter"," #c68512"," 4.60"
+738,FilthyCape," ArmyPainter"," #7c7863"," 6.50"
+739,FilthyCape," ArmyPainter"," #7c7863"," 5.50"
+740,CommandoGreen," ArmyPainter"," #827b39"," 5.09"
+741,CombatFatigue," ArmyPainter"," #878e5c"," 5.72"
+742,MummyRobes," ArmyPainter"," #ebded5"," 6.84"
+743,CombatFatigue," ArmyPainter"," #878e5c"," 9.96"
+744,NecroticFlesh," ArmyPainter"," #bfc292"," 8.51"
+745,FilthyCape," ArmyPainter"," #7c7863"," 3.36"
+746,CryptWraith," ArmyPainter"," #606050"," 5.91"
+747,CryptWraith," ArmyPainter"," #606050"," 11.89"
+748,NecromanceCloak," ArmyPainter"," #3c3d37"," 6.93"
+749,CryptWraith," ArmyPainter"," #606050"," 8.23"
+750,GoblinGreen," ArmyPainter"," #348941"," 4.69"
+751,NecromanceCloak," ArmyPainter"," #3c3d37"," 7.21"
+752,CryptWraith," ArmyPainter"," #606050"," 5.47"
+753,HardenedCarapace," ArmyPainter"," #4c473f"," 10.65"
+754,WizardsOrb," ArmyPainter"," #00726a"," 7.54"
+755,NecromanceCloak," ArmyPainter"," #3c3d37"," 10.62"
+756,NecromanceCloak," ArmyPainter"," #3c3d37"," 12.25"
+757,DarkSky," ArmyPainter"," #2b4b5f"," 7.52"
+758,DeepBlue," ArmyPainter"," #083251"," 4.25"
+759,WolfGrey," ArmyPainter"," #5b8093"," 6.12"
+760,WolfGrey," ArmyPainter"," #5b8093"," 3.43"
+761,ElectricBlue," ArmyPainter"," #508cbe"," 9.78"
+762,WolfGrey," ArmyPainter"," #5b8093"," 6.45"
+763,UniformGrey," ArmyPainter"," #5e6a73"," 6.20"
+764,AshGrey," ArmyPainter"," #a2a5a4"," 2.02"
+765,AshGrey," ArmyPainter"," #a2a5a4"," 9.56"
+766,SpaceshipExterior," ArmyPainter"," #cdced0"," 5.30"
+767,MarsRed," ArmyPainter"," #b73b37"," 2.25"
+768,PureRed," ArmyPainter"," #cf2127"," 1.62"
+769,LavaOrange," ArmyPainter"," #e65525"," 2.51"
+770,BarbarianFlesh," ArmyPainter"," #e89c6c"," 8.23"
+771,TrollClaws," ArmyPainter"," #cb8b4e"," 7.27"
+772,DesertYellow," ArmyPainter"," #c7952c"," 4.35"
+773,KoboldSkin," ArmyPainter"," #c9a484"," 10.68"
+774,BabeBlonde," ArmyPainter"," #f8dd0d"," 2.18"
+775,SkeletonBone," ArmyPainter"," #d3c89d"," 6.89"
+776,SkeletonBone," ArmyPainter"," #d3c89d"," 3.81"
+777,BrainmatterBeige," ArmyPainter"," #f1f0e0"," 2.77"
+778,WizardsOrb," ArmyPainter"," #00726a"," 7.49"
+779,MonsterBrown," ArmyPainter"," #855c2a"," 6.51"
+780,MouldyClothes," ArmyPainter"," #447b3a"," 4.42"
+781,HempRope," ArmyPainter"," #94763a"," 5.82"
+782,CryptWraith," ArmyPainter"," #606050"," 6.53"
+783,DeepBlue," ArmyPainter"," #083251"," 6.33"
+784,VampireRed," ArmyPainter"," #981d34"," 3.84"
+785,BarbarianFlesh," ArmyPainter"," #e89c6c"," 6.75"
+786,AridEarth," ArmyPainter"," #faecc3"," 3.97"
+787,TannedFlesh," ArmyPainter"," #bc745e"," 5.10"
+788,GriffonBlue," ArmyPainter"," #215383"," 4.25"
+789,WerewolfFur," ArmyPainter"," #785e4e"," 6.85"
+790,DarkStone," ArmyPainter"," #605752"," 4.44"
+791,GoblinGreen," ArmyPainter"," #348941"," 10.70"
+792,WolfGrey," ArmyPainter"," #5b8093"," 7.34"
+793,PixiePink," ArmyPainter"," #d47a83"," 2.40"
+794,VampireRed," ArmyPainter"," #981d34"," 9.57"
+795,MarsRed," ArmyPainter"," #b73b37"," 6.17"
+796,BansheeBrown," ArmyPainter"," #c3b097"," 6.98"
+797,MoonDust," ArmyPainter"," #e8d468"," 7.17"
+798,BabeBlonde," ArmyPainter"," #f8dd0d"," 6.96"
+799,MattBlack," ArmyPainter"," #231f20"," 7.17"
+800,MattWhite," ArmyPainter"," #ffffff"," 0.00"
+801,BabeBlonde," ArmyPainter"," #f8dd0d"," 6.38"
+802,DaemonicYellow," ArmyPainter"," #fada06"," 5.13"
+803,PoisonousCloud," ArmyPainter"," #cdde4a"," 3.68"
+804,KoboldSkin," ArmyPainter"," #c9a484"," 5.04"
+805,LavaOrange," ArmyPainter"," #e65525"," 2.46"
+806,MarsRed," ArmyPainter"," #b73b37"," 4.81"
+807,PixiePink," ArmyPainter"," #d47a83"," 8.35"
+808,WastelandSoil," ArmyPainter"," #774b58"," 7.08"
+809,AlienPurple," ArmyPainter"," #50317b"," 5.20"
+810,GorgonHide," ArmyPainter"," #c7d2e4"," 10.76"
+811,VikingBlue," ArmyPainter"," #00609a"," 6.70"
+812,VikingBlue," ArmyPainter"," #00609a"," 9.53"
+813,UniformGrey," ArmyPainter"," #5e6a73"," 6.25"
+814,DarkSky," ArmyPainter"," #2b4b5f"," 4.15"
+815,HydraTurquoise," ArmyPainter"," #199ba3"," 5.30"
+816,ScalyHide," ArmyPainter"," #859852"," 6.90"
+817,Greenskin," ArmyPainter"," #136232"," 3.27"
+818,GoblinGreen," ArmyPainter"," #348941"," 8.43"
+819,Greenskin," ArmyPainter"," #136232"," 6.10"
+820,StoneGolem," ArmyPainter"," #b9bab7"," 8.74"
+821,RoyalCloak," ArmyPainter"," #15999c"," 10.52"
+822,AshGrey," ArmyPainter"," #a2a5a4"," 7.41"
+823,KrakenSkin," ArmyPainter"," #71c591"," 8.95"
+824,CryptWraith," ArmyPainter"," #606050"," 9.99"
+825,SkeletonBone," ArmyPainter"," #d3c89d"," 1.01"
+826,DesertYellow," ArmyPainter"," #c7952c"," 8.49"
+827,CombatFatigue," ArmyPainter"," #878e5c"," 6.58"
+828,NecromanceCloak," ArmyPainter"," #3c3d37"," 8.39"
+829,NecromanceCloak," ArmyPainter"," #3c3d37"," 10.06"
+830,TannedFlesh," ArmyPainter"," #bc745e"," 6.18"
+831,GrimoirePurple," ArmyPainter"," #805259"," 8.41"
+832,MonsterBrown," ArmyPainter"," #855c2a"," 4.01"
+833,GrimoirePurple," ArmyPainter"," #805259"," 7.78"
+834,OakBrown," ArmyPainter"," #432010"," 7.62"
+835,DrakeTooth," ArmyPainter"," #cfcbb4"," 5.02"
+836,AshGrey," ArmyPainter"," #a2a5a4"," 9.27"
+837,CombatFatigue," ArmyPainter"," #878e5c"," 4.38"
+838,StoneGolem," ArmyPainter"," #b9bab7"," 1.86"
+839,AshGrey," ArmyPainter"," #a2a5a4"," 4.18"
+840,FieldGrey," ArmyPainter"," #787c78"," 0.75"
+841,DungeonGrey," ArmyPainter"," #686c71"," 5.31"
+842,BrainmatterBeige," ArmyPainter"," #f1f0e0"," 5.23"
+843,NecromanceCloak," ArmyPainter"," #3c3d37"," 8.58"
+844,MattBlack," ArmyPainter"," #231f20"," 10.58"

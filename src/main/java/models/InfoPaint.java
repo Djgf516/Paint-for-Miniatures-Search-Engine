@@ -9,7 +9,7 @@ public class InfoPaint {
     //------------------------------------------------------------
     private static int paintIdCounter = 0;
 
-    private int paintId;
+    private int paintId = 0;
     private String paintName;
     private String brandName;
     private String hexColorCode;
@@ -22,12 +22,16 @@ public class InfoPaint {
     public InfoPaint(String paintName, String brandName) {
         this.paintName = paintName;
         this.brandName = brandName;
+        this.paintId = paintIdCounter++;
+
     }
 
     public InfoPaint(String paintName, String brandName, String hexColorCode) {
         this.paintName = paintName;
         this.brandName = brandName;
         this.hexColorCode = hexColorCode;
+        this.paintId = paintIdCounter++;
+
     }
 
     public InfoPaint(String paintName, String brandName, String hexColorCode, String matchValue) {
@@ -35,6 +39,8 @@ public class InfoPaint {
         this.brandName = brandName;
         this.hexColorCode = hexColorCode;
         this.matchValue = matchValue;
+        this.paintId = paintIdCounter++;
+
     }
 
     public static int getPaintIdCounter() {
