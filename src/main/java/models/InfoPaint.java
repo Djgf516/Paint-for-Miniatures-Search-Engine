@@ -9,11 +9,15 @@ public class InfoPaint {
     //------------------------------------------------------------
     private static int paintIdCounter = 0;
 
-    private int paintId = 0;
+    private int paintId;
     private String paintName;
     private String brandName;
     private String hexColorCode;
     private String matchValue;
+
+
+    public InfoPaint(int paintId, String paintName, String brandName, String hexColorCode) {
+    }
 
     public InfoPaint(String paintName) {
         this.paintName = paintName;
@@ -22,7 +26,7 @@ public class InfoPaint {
     public InfoPaint(String paintName, String brandName) {
         this.paintName = paintName;
         this.brandName = brandName;
-        this.paintId = paintIdCounter++;
+
 
     }
 
@@ -30,7 +34,7 @@ public class InfoPaint {
         this.paintName = paintName;
         this.brandName = brandName;
         this.hexColorCode = hexColorCode;
-        this.paintId = paintIdCounter++;
+
 
     }
 
@@ -39,8 +43,16 @@ public class InfoPaint {
         this.brandName = brandName;
         this.hexColorCode = hexColorCode;
         this.matchValue = matchValue;
-        this.paintId = paintIdCounter++;
 
+
+    }
+
+    public int getPaintId() {
+        return paintId;
+    }
+
+    public void setPaintId(int paintId) {
+        this.paintId = paintId;
     }
 
     public static int getPaintIdCounter() {
@@ -49,15 +61,6 @@ public class InfoPaint {
 
     public static void setPaintIdCounter(int paintIdCounter) {
         InfoPaint.paintIdCounter = paintIdCounter;
-    }
-
-    public int getPaintId() {
-        return paintId;
-    }
-
-    public void setPaintId(int paintId) {
-        this.paintId = paintIdCounter++;
-        paintIdCounter++;
     }
 
     public String getPaintName() {
