@@ -6,7 +6,7 @@ Reference tables:
 
 <a href= "https://www.dakkadakka.com/wiki/en/paint_range_compatibility_chart"> Dakka models.InfoPaint Range Compatibility Chart </a>
 
-<a href= "https://redgrimm.github.io/paint-conversion/p3.html"> Redgrim P3 Formula </a>
+<a href= "https://redgrimm.github.io/paint-conversion/p3.html"> Redgrim Paint Chart </a>
 
 <a href= https://acrylicosvallejo.com/wp-content/uploads/2021/09/CC072-Game_Color-Rev20-baja.pdf> Vallejo Equivelancies Chart  </a>
 

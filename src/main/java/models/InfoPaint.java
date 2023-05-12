@@ -17,6 +17,10 @@ public class InfoPaint {
 
 
     public InfoPaint(int paintId, String paintName, String brandName, String hexColorCode) {
+        this.paintId = paintId;
+        this.paintName = paintName;
+        this.brandName = brandName;
+        this.hexColorCode = hexColorCode;
     }
 
     public InfoPaint(String paintName) {
