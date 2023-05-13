@@ -22,7 +22,7 @@ public class ApacheCommonsFileReader {
 
     public static void main(String[] args) throws IOException {
         File file = new File("C:\\Users\\Student\\workspace\\Paint-for-Miniatures-Search-Engine\\src\\main\\resources\\PaintDatabasee.csv");
-        File matchData = new File("C:\\Users\\Student\\workspace\\Paint-for-Miniatures-Search-Engine\\src\\main\\resources\\VallejoGameMatchData.csv");
+        File matchData = new File("C:\\Users\\Student\\workspace\\Paint-for-Miniatures-Search-Engine\\src\\main\\resources\\CitadelMatchData.csv");
 
         //Empty String to hold the information from our file reader
         String line;
