@@ -1,2 +1,4 @@
-/sql/*.sql linguist-language=SQL
+/sql/*.sql linguist-language=sql
 *.csv linguist-language=CSV
+*.sql linguist-language=sql
+*.sql linguist-detectable=true
