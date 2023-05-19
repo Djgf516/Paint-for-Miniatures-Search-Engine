@@ -46,7 +46,7 @@ WHERE hex_color_code LIKE '%29556d';
 SELECT *
 FROM match_paint;
 
-
+--Search using paint name
 SELECT * 
 FROM paint 
 WHERE paint_id IN(SELECT match_paint.comparison_paint_id
@@ -54,7 +54,8 @@ WHERE paint_id IN(SELECT match_paint.comparison_paint_id
 				JOIN match_paint ON match_paint.base_paint_id = paint.paint_id
 				WHERE paint.name LIKE '%Green%')
 LIMIT 25;
-				
+
+--Search using Hex Color Code				
 SELECT * 
 FROM paint 
 WHERE paint_id IN(SELECT match_paint.comparison_paint_id

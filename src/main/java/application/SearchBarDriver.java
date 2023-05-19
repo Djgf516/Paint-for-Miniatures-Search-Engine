@@ -1,7 +1,6 @@
 package application;
 
 import models.InfoPaint;
-import models.InfoPaint;
 import models.ListRelatedPaints;
 import ui.*;
 

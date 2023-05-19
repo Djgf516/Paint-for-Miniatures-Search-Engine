@@ -15,6 +15,8 @@ public class InfoPaint {
     private String hexColorCode;
     private String matchValue;
 
+    public InfoPaint() {
+    }
 
     public InfoPaint(int paintId, String paintName, String brandName, String hexColorCode) {
         this.paintId = paintId;
