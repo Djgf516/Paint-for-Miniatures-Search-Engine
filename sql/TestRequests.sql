@@ -33,8 +33,9 @@ TRIM (hex_color_code)
 
 --command " "\\copy public.vallejo_game (name, brand, hex_color_code, match_value) FROM 'C:/Users/Student/DOWNLO~1/VALLEJ~1.CSV' DELIMITER ',' CSV QUOTE '\"' ESCAPE '''';""
 
-SELECT*
-FROM paint;
+SELECT name, brand, hex_color_code
+FROM paint
+ORDER BY name LIMIT 25;
 WHERE name ILIKE '%beiGeRed%'
 LIMIT 25;
 #29556d
@@ -47,7 +48,7 @@ SELECT *
 FROM match_paint;
 
 --Search using paint name
-SELECT * 
+SELECT name, brand, hex_color_code
 FROM paint 
 WHERE paint_id IN(SELECT match_paint.comparison_paint_id
 				FROM paint
@@ -56,7 +57,7 @@ WHERE paint_id IN(SELECT match_paint.comparison_paint_id
 LIMIT 25;
 
 --Search using Hex Color Code				
-SELECT * 
+SELECT name, brand, hex_color_code
 FROM paint 
 WHERE paint_id IN(SELECT match_paint.comparison_paint_id
 				FROM paint

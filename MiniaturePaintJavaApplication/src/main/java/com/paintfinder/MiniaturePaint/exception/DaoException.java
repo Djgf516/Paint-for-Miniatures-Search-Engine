@@ -1,4 +1,4 @@
-package exception;
+package com.paintfinder.MiniaturePaint.exception;
 
 public class DaoException extends RuntimeException {
     public DaoException() {

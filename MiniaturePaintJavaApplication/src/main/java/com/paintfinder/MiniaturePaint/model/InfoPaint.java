@@ -1,4 +1,4 @@
-package model;
+package com.paintfinder.MiniaturePaint.model;
 
 
 public class InfoPaint {

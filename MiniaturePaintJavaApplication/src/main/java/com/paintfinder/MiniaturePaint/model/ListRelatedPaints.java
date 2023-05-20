@@ -1,4 +1,4 @@
-package model;
+package com.paintfinder.MiniaturePaint.model;
 
 import java.util.List;
 

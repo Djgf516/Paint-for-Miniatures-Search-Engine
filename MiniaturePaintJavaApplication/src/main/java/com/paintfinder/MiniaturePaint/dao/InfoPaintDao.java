@@ -1,6 +1,6 @@
-package dao;
+package com.paintfinder.MiniaturePaint.dao;
 
-import model.InfoPaint;
+import com.paintfinder.MiniaturePaint.model.InfoPaint;
 import java.util.List;
 
 public interface InfoPaintDao {

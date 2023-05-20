@@ -1,8 +1,7 @@
-package dao;
+package com.paintfinder.MiniaturePaint.dao;
 
-import exception.DaoException;
-import model.InfoPaint;
-import org.springframework.context.annotation.ComponentScan;
+import com.paintfinder.MiniaturePaint.exception.DaoException;
+import com.paintfinder.MiniaturePaint.model.InfoPaint;
 import org.springframework.jdbc.BadSqlGrammarException;
 import org.springframework.jdbc.CannotGetJdbcConnectionException;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -41,16 +40,13 @@ public class JdbcInfoPaint implements InfoPaintDao {
         return paints;
     }
 
-    //Method will only search by the paint name, we will add seperate code to search by hex-code or brand
+    //This method searches for a specific paint and returns the matches for it. Not a generic Search
     @Override
     public List<InfoPaint> findByString(String string) {
         List<InfoPaint> paints = new ArrayList<>();
         String sql = "SELECT name, brand, hex_color_code " +
                 "FROM paint " +
-                "WHERE paint_id IN(SELECT match_paint.comparison_paint_id " +
-                "FROM paint " +
-                "JOIN match_paint ON match_paint.base_paint_id = paint.paint_id " +
-                "WHERE paint.name ILIKE ?)" +
+                "WHERE paint_id IN(SELECT match_paint.comparison_paint_id FROM paint JOIN match_paint ON match_paint.base_paint_id = paint.paint_id WHERE paint.name ILIKE ?)" +
                 "LIMIT 25;";
         SqlRowSet results = jdbcTemplate.queryForRowSet(sql, string);
         if (results.next()) {
@@ -61,9 +57,9 @@ public class JdbcInfoPaint implements InfoPaintDao {
         return paints;
     }
 
+    //Used to map our values and read the results
     private InfoPaint mapRowToInfoPaint(SqlRowSet rowSet) {
         InfoPaint paint = new InfoPaint();
-        paint.setPaintId(rowSet.getInt("paint_id"));
         paint.setPaintName(rowSet.getString("name"));
         paint.setBrandName(rowSet.getString("brand"));
         paint.setHexColorCode(rowSet.getString("hex_color_code"));
