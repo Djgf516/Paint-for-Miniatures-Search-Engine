@@ -6,6 +6,9 @@ import java.util.List;
 public interface InfoPaintDao {
 
     List<InfoPaint> findAll();
+    List<InfoPaint> findByName(String name);
+    List<InfoPaint> findByBrand(String brand);
+    List<InfoPaint> findByHexColorCode(String hex);
     List<InfoPaint> findByString(String string);
 
 }

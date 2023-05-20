@@ -40,6 +40,69 @@ public class JdbcInfoPaint implements InfoPaintDao {
         return paints;
     }
 
+    //Simple Search by Name
+    @Override
+    public List<InfoPaint> findByName(String name) {
+        List<InfoPaint> paints = new ArrayList<>();
+        String sql = "SELECT name, brand, hex_color_code FROM paint WHERE name ILIKE '%' || ? || '%' ORDER BY name LIMIT 25;";
+        name = name.trim();
+        SqlRowSet results = jdbcTemplate.queryForRowSet(sql, name);
+        try {
+            while (results.next()) {
+                InfoPaint paint = mapRowToInfoPaint(results);
+                paints.add(paint);
+            }
+        } catch (CannotGetJdbcConnectionException e) {
+            throw new DaoException("Unable to connect to server or database", e);
+        } catch (BadSqlGrammarException e) {
+            throw new DaoException("SQL syntax error", e);
+        }
+        return paints;
+    }
+
+    //Search by Brand
+    @Override
+    public List<InfoPaint> findByBrand(String brand) {
+        List<InfoPaint> paints = new ArrayList<>();
+        String sql = "SELECT name, brand, hex_color_code FROM paint WHERE brand ILIKE '%' || ? || '%' " +
+                "ORDER BY brand LIMIT 25;";
+        brand = brand.trim(); // Add wildcard characters to perform a partial match
+        SqlRowSet results = jdbcTemplate.queryForRowSet(sql, brand);
+        try {
+            while (results.next()) {
+                InfoPaint paint = mapRowToInfoPaint(results);
+                paints.add(paint);
+
+            }
+        } catch (CannotGetJdbcConnectionException e) {
+            throw new DaoException("Unable to connect to server or database", e);
+        } catch (BadSqlGrammarException e) {
+            throw new DaoException("SQL syntax error", e);
+        }
+        return paints;
+    }
+
+    @Override
+    public List<InfoPaint> findByHexColorCode(String hex) {
+        List<InfoPaint> paints = new ArrayList<>();
+        String sql = "SELECT name, brand, hex_color_code FROM paint WHERE hex_color_code ILIKE '%' || ? || '%' ORDER BY hex_color_code LIMIT 25;";
+        hex = hex.trim(); // Add wildcard characters to perform a partial match
+
+        SqlRowSet results = jdbcTemplate.queryForRowSet(sql, hex);
+        try {
+            while (results.next()) {
+                InfoPaint paint = mapRowToInfoPaint(results);
+                paints.add(paint);
+
+            }
+        } catch (CannotGetJdbcConnectionException e) {
+            throw new DaoException("Unable to connect to server or database", e);
+        } catch (BadSqlGrammarException e) {
+            throw new DaoException("SQL syntax error", e);
+        }
+        return paints;
+    }
+
     //This method searches for a specific paint and returns the matches for it. Not a generic Search
     @Override
     public List<InfoPaint> findByString(String string) {

@@ -43,6 +43,11 @@ CREATE TABLE IF NOT EXISTS match_paint (
 
 
 
+--Deletes Duplicate Values and choose the greater paint_id to keep
+DELETE FROM 
+paint a USING paint b
+WHERE a.paint_id < b.paint_id
+AND a.name = b.name;
 
 INSERT INTO paint (name, brand, hex_color_code)
 VALUES 

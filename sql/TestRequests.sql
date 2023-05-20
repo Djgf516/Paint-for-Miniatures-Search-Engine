@@ -10,14 +10,10 @@ GROUP BY (name)
 HAVING COUNT(name)>1
 ORDER BY name;
 
---Deletes Duplicate Values and choose the greater paint_id to keep
-DELETE FROM 
-paint a USING paint b
-WHERE a.paint_id < b.paint_id
-AND a.name = b.name;
 
 SELECT *
 FROM paint
+ORDER BY paint_id;
 WHERE brand ILIKE '%Vallejo-Game%'
 ORDER BY paint_id;
 
@@ -26,23 +22,28 @@ FROM paint;
 SELECT TRIM (hex_color_code)
 FROM paint;
 
-
-
-
 TRIM (hex_color_code)
 
 --command " "\\copy public.vallejo_game (name, brand, hex_color_code, match_value) FROM 'C:/Users/Student/DOWNLO~1/VALLEJ~1.CSV' DELIMITER ',' CSV QUOTE '\"' ESCAPE '''';""
 
+--Simple Search by name
 SELECT name, brand, hex_color_code
 FROM paint
+WHERE name ILIKE '%p%'
 ORDER BY name LIMIT 25;
-WHERE name ILIKE '%beiGeRed%'
-LIMIT 25;
-#29556d
 
+--Search by Brand name
+SELECT name, brand, hex_color_code
+FROM paint
+WHERE brand ILIKE '%p%'
+ORDER BY name LIMIT 25;
+
+-- Search by hex_color_code
 SELECT*
 FROM paint
-WHERE hex_color_code LIKE '%29556d';
+WHERE hex_color_code ILIKE '%55%'
+ORDER BY hex_color_code
+LIMIT 25;
 
 SELECT *
 FROM match_paint;
