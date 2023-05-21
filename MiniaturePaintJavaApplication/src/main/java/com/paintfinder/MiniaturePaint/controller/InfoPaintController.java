@@ -36,6 +36,20 @@ public class InfoPaintController {
         }
     }
 
+    //This will be used with the checkboxes. The data will be manipulated on the webpage using Javascript to filter further.
+    @GetMapping("/all-brands")
+    public List<InfoPaint> findAllByBrand(@RequestParam("brand-name") String brand) {
+        try {
+            List<InfoPaint> paints = infoPaintDao.findAllByBrand(brand);
+            if (paints.isEmpty()) {
+                throw new ResponseStatusException(HttpStatus.NOT_FOUND, "No paints found matching the search criteria.");
+            }
+            return paints;
+        } catch (Exception e) {
+            throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "An error occurred during the search.", e);
+        }
+    }
+
     @GetMapping("/paints")
     public List<InfoPaint> searchPaintsByName(@RequestParam("search-name") String name) {
         try {
@@ -66,6 +80,19 @@ public class InfoPaintController {
     public List<InfoPaint> searchPaintsByHexCode(@RequestParam("search-code") String hexCode) {
         try {
             List<InfoPaint> paints = infoPaintDao.findByHexColorCode(hexCode);
+            if (paints.isEmpty()) {
+                throw new ResponseStatusException(HttpStatus.NOT_FOUND, "No paints found matching the search criteria.");
+            }
+            return paints;
+        } catch (Exception e) {
+            throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "An error occurred during the search.", e);
+        }
+    }
+
+    @GetMapping("/match-paint")
+    public List<InfoPaint> findMatchesByPaint(@RequestParam("paint-name") String name) {
+        try {
+            List<InfoPaint> paints = infoPaintDao.findMatchesByName(name);
             if (paints.isEmpty()) {
                 throw new ResponseStatusException(HttpStatus.NOT_FOUND, "No paints found matching the search criteria.");
             }

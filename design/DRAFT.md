@@ -144,6 +144,7 @@ STeps to go through right now:
 Create 5 seperate brand SQL statements to display all the colors from that brand. 
 Create 5 seperate SQL statements to performa search of paints from just that brand. 
 The checkbox will then display only the match colors to the color searched OR selected. If it is selected then that element stays on screen
+The brand values that are displayed will then be manipulated using Javascript and DOM
 
 ## Installation
 

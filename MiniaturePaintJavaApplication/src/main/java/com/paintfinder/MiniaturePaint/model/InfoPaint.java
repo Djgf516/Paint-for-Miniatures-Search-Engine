@@ -32,16 +32,12 @@ public class InfoPaint {
     public InfoPaint(String paintName, String brandName) {
         this.paintName = paintName;
         this.brandName = brandName;
-
-
     }
 
     public InfoPaint(String paintName, String brandName, String hexColorCode) {
         this.paintName = paintName;
         this.brandName = brandName;
         this.hexColorCode = hexColorCode;
-
-
     }
 
     public InfoPaint(String paintName, String brandName, String hexColorCode, String matchValue) {
@@ -49,8 +45,6 @@ public class InfoPaint {
         this.brandName = brandName;
         this.hexColorCode = hexColorCode;
         this.matchValue = matchValue;
-
-
     }
 
     public int getPaintId() {
@@ -105,7 +99,7 @@ public class InfoPaint {
 
     @Override
     public String toString() {
-        return  paintName + ", " + brandName +
+        return paintName + ", " + brandName +
                 ", hexColorCode: " + hexColorCode +
                 ", matchValue: " + matchValue;
     }

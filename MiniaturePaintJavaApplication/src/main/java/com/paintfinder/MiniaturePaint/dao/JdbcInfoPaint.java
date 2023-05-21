@@ -24,7 +24,7 @@ public class JdbcInfoPaint implements InfoPaintDao {
     @Override
     public List<InfoPaint> findAll() {
         List<InfoPaint> paints = new ArrayList<>();
-        String sql = "SELECT name, brand, hex_color_code FROM paint ORDER BY name LIMIT 25;";
+        String sql = "SELECT name, brand, hex_color_code FROM paint ORDER BY name LIMIT 50;";
 
         try {
             SqlRowSet results = jdbcTemplate.queryForRowSet(sql);
@@ -40,12 +40,33 @@ public class JdbcInfoPaint implements InfoPaintDao {
         return paints;
     }
 
+    //Parameter value ? so user can select the brand and this method can be re-used.
+    @Override
+    public List<InfoPaint> findAllByBrand(String brand) {
+        List<InfoPaint> brandPaints = new ArrayList<>();
+        String sql = "SELECT name, brand, hex_color_code FROM paint WHERE brand ILIKE '%' || ? ORDER BY name;";
+        brand = brand.trim(); // Trim because a \n character was being added which was not needed.
+        SqlRowSet results = jdbcTemplate.queryForRowSet(sql, brand);
+        try {
+            while (results.next()) {
+                InfoPaint paint = mapRowToInfoPaint(results);
+                brandPaints.add(paint);
+            }
+        } catch (CannotGetJdbcConnectionException e) {
+            throw new DaoException("Unable to connect to server or database", e);
+        } catch (BadSqlGrammarException e) {
+            throw new DaoException("SQL syntax error", e);
+        }
+        return brandPaints;
+    }
+
     //Simple Search by Name
     @Override
     public List<InfoPaint> findByName(String name) {
         List<InfoPaint> paints = new ArrayList<>();
+        // Add wildcard characters to perform a partial match
         String sql = "SELECT name, brand, hex_color_code FROM paint WHERE name ILIKE '%' || ? || '%' ORDER BY name LIMIT 25;";
-        name = name.trim();
+        name = name.trim(); // Trim because a \n character was being added which was not needed.
         SqlRowSet results = jdbcTemplate.queryForRowSet(sql, name);
         try {
             while (results.next()) {
@@ -64,15 +85,15 @@ public class JdbcInfoPaint implements InfoPaintDao {
     @Override
     public List<InfoPaint> findByBrand(String brand) {
         List<InfoPaint> paints = new ArrayList<>();
+        // Add wildcard characters to perform a partial match
         String sql = "SELECT name, brand, hex_color_code FROM paint WHERE brand ILIKE '%' || ? || '%' " +
                 "ORDER BY brand LIMIT 25;";
-        brand = brand.trim(); // Add wildcard characters to perform a partial match
+        brand = brand.trim(); // Trim because a \n character was being added which was not needed.
         SqlRowSet results = jdbcTemplate.queryForRowSet(sql, brand);
         try {
             while (results.next()) {
                 InfoPaint paint = mapRowToInfoPaint(results);
                 paints.add(paint);
-
             }
         } catch (CannotGetJdbcConnectionException e) {
             throw new DaoException("Unable to connect to server or database", e);
@@ -85,15 +106,15 @@ public class JdbcInfoPaint implements InfoPaintDao {
     @Override
     public List<InfoPaint> findByHexColorCode(String hex) {
         List<InfoPaint> paints = new ArrayList<>();
+        // Add wildcard characters to perform a partial match
         String sql = "SELECT name, brand, hex_color_code FROM paint WHERE hex_color_code ILIKE '%' || ? || '%' ORDER BY hex_color_code LIMIT 25;";
-        hex = hex.trim(); // Add wildcard characters to perform a partial match
+        hex = hex.trim();// Trim because a \n character was being added which was not needed.
 
         SqlRowSet results = jdbcTemplate.queryForRowSet(sql, hex);
         try {
             while (results.next()) {
                 InfoPaint paint = mapRowToInfoPaint(results);
                 paints.add(paint);
-
             }
         } catch (CannotGetJdbcConnectionException e) {
             throw new DaoException("Unable to connect to server or database", e);
@@ -105,17 +126,26 @@ public class JdbcInfoPaint implements InfoPaintDao {
 
     //This method searches for a specific paint and returns the matches for it. Not a generic Search
     @Override
-    public List<InfoPaint> findByString(String string) {
+    public List<InfoPaint> findMatchesByName(String paintName) {
         List<InfoPaint> paints = new ArrayList<>();
-        String sql = "SELECT name, brand, hex_color_code " +
-                "FROM paint " +
-                "WHERE paint_id IN(SELECT match_paint.comparison_paint_id FROM paint JOIN match_paint ON match_paint.base_paint_id = paint.paint_id WHERE paint.name ILIKE ?)" +
-                "LIMIT 25;";
-        SqlRowSet results = jdbcTemplate.queryForRowSet(sql, string);
-        if (results.next()) {
-            InfoPaint paint = mapRowToInfoPaint(results);
-            paints.add(paint);
+        String sql = "SELECT p.name AS comparison_paint_name, p.brand, p.hex_color_code, mp.match_value " +
+                "FROM match_paint mp " +
+                "JOIN paint p ON mp.comparison_paint_id = p.paint_id " +
+                "JOIN paint p_base ON mp.base_paint_id = p_base.paint_id " +
+                "WHERE p_base.name ILIKE '%' || ? || '%' " +
+                "ORDER BY p.name;";
+        paintName = paintName.trim();
+        try {
+            SqlRowSet results = jdbcTemplate.queryForRowSet(sql, paintName);
+            while (results.next()) {
+                InfoPaint paint = mapRowToInfoPaintMatch(results);
+                paints.add(paint);
 
+            }
+        } catch (CannotGetJdbcConnectionException e) {
+            throw new DaoException("Unable to connect to server or database", e);
+        } catch (BadSqlGrammarException e) {
+            throw new DaoException("SQL syntax error", e);
         }
         return paints;
     }
@@ -126,6 +156,16 @@ public class JdbcInfoPaint implements InfoPaintDao {
         paint.setPaintName(rowSet.getString("name"));
         paint.setBrandName(rowSet.getString("brand"));
         paint.setHexColorCode(rowSet.getString("hex_color_code"));
+        return paint;
+    }
+
+    //Used Exclusively for match values
+    private InfoPaint mapRowToInfoPaintMatch(SqlRowSet rowSet) {
+        InfoPaint paint = new InfoPaint();
+        paint.setPaintName(rowSet.getString("comparison_paint_name"));
+        paint.setBrandName(rowSet.getString("brand"));
+        paint.setHexColorCode(rowSet.getString("hex_color_code"));
+        paint.setMatchValue(rowSet.getString("match_value"));
         return paint;
     }
 }
