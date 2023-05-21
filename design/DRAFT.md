@@ -136,6 +136,14 @@ you would like it to go which will vary depending on table size
 
 
 
+WEBSITE SEARCH BAR DESIGN:
+Default is global search, with a drop down menu for brands, then it will do a brand search. There will always be a checkbox that when clicked displays similar colors.  Otherwise it does a regular color search. 
+
+
+STeps to go through right now:
+Create 5 seperate brand SQL statements to display all the colors from that brand. 
+Create 5 seperate SQL statements to performa search of paints from just that brand. 
+The checkbox will then display only the match colors to the color searched OR selected. If it is selected then that element stays on screen
 
 ## Installation
 

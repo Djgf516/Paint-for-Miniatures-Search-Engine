@@ -1,6 +1,6 @@
 # Paint for Miniatures Search Engine 
 
-A useful tool to find paint colors and compare different brands, using data created by the community. 
+A useful tool to find paint colors and compare different brands, using data collected by the community. 
 
 Community Sources (the database for the project):
 
