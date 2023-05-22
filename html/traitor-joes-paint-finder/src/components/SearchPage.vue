@@ -2,29 +2,46 @@
   <div class="container">
     <div class="background-image"></div>
     <div class="logo">
-       <!-- Add your logo here-->
+      <!-- logo here-->
       <img src="../assets/Banner2.png" alt="Logo" />
     </div>
     <div class="search-bar">
       <input type="text" v-model="searchQuery" placeholder="Search" />
       <button @click="search">Search</button>
     </div>
+    <database-component
+      v-if="showDatabaseComponent"
+      ref="databaseComponent"
+      :searchQuery="searchQuery"
+    ></database-component>
   </div>
 </template>
 
 <script>
+import DatabaseComponent from "./DatabaseComponent.vue";
+
 export default {
   name: "SearchPage",
   data() {
     return {
       searchQuery: "",
+      showDatabaseComponent: false, // Initially set to false
+      searchResults: [], // Array to store search results
     };
   },
   methods: {
     search() {
       // Implement your search logic here
       console.log("Search query:", this.searchQuery);
+
+      // Perform your search operation based on the search query
+      // For example, you can filter the data from your database component based on the search query
+      // Wait for the next tick to ensure the component is mounted
+      this.showDatabaseComponent = true;
     },
+  },
+  components: {
+    DatabaseComponent,
   },
 };
 </script>
@@ -54,6 +71,7 @@ export default {
   background-size: cover;
   background-position: center;
   opacity: 0.2;
+  pointer-events: none; /* Add this property */
 }
 
 .search-bar {
@@ -61,6 +79,8 @@ export default {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative; /* Add position relative */
+  z-index: 1; /* Set a higher z-index value */
 }
 
 input[type="text"] {
@@ -73,5 +93,4 @@ button {
   padding: 10px 20px;
   font-size: 16px;
 }
-
 </style>

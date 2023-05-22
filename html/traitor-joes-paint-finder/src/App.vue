@@ -5,7 +5,6 @@
 </template>
 
 <script>
-
 import SearchPage from './components/SearchPage.vue'
 
 export default {
