@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import axios from "axios";
+import paintService from "../paintService";
 export default {
   name: "DatabaseComponent",
   props: {
@@ -29,38 +29,21 @@ export default {
       // Add your data properties here
     };
   },
-  mounted() {
+ mounted() {
     this.fetchData();
   },
   methods: {
-    // Add your methods for interacting with the Java application and PostgreSQL here
-    // Include the search query in the request
-    // Update the 'paints' data property with the received results
+    // Call the paintService to fetch data
     fetchData() {
-      let url = "";
-      if (this.searchQuery) {
-        // Perform search by name
-        url = `http://localhost:8080/paint/paints?search-name=${encodeURIComponent(
-          this.searchQuery
-        )}`;
-      } else {
-        // Fetch all paints
-        url = "http://localhost:8080/paint/all";
-      }
-
-      // Make the API request
-      axios
-        .get(url)
-        .then((response) => {
-          this.paints = response.data.map((paint) => ({
-
-            paintName: paint.paintName,
-            brandName: paint.brandName,
-            hexColorCode: paint.hexColorCode,
-          }));
+      paintService
+        .getPaints(this.searchQuery)
+        .then((paints) => {
+          this.paints = paints;
         })
         .catch((error) => {
           console.error(error);
+        throw error;
+          // Handle the error
         });
     },
   },
@@ -84,6 +67,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #000;
 }
 
 .box {
@@ -102,6 +86,7 @@ export default {
 }
 
 .paint-brand {
+  font-size: 1.75vh;
   color: white;
 }
 

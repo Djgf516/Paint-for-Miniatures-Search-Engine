@@ -31,13 +31,20 @@ export default {
   },
   methods: {
     search() {
+      this.showDatabaseComponent = false; // Hide the database component
+
+      // Clear the search results from the previous search
+      this.searchResults = [];
+
       // Implement your search logic here
       console.log("Search query:", this.searchQuery);
 
       // Perform your search operation based on the search query
       // For example, you can filter the data from your database component based on the search query
-      // Wait for the next tick to ensure the component is mounted
-      this.showDatabaseComponent = true;
+      // Wait for a second to all results to load
+      setTimeout(() => {
+        this.showDatabaseComponent = true;
+      }, 500);
     },
   },
   components: {
@@ -53,7 +60,7 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   background-color: black;
 }
 
