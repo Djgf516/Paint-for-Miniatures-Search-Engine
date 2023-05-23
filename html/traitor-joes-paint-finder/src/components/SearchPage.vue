@@ -6,13 +6,23 @@
       <img src="../assets/Banner2.png" alt="Logo" />
     </div>
     <div class="search-bar">
-      <input type="text" v-model="searchQuery" placeholder="Search" />
-      <button @click="search">Search</button>
+      <div class="brand-filter">
+        <select id="brand-select" v-model="selectedBrand" @change="search">
+          <option value="">All Brands</option>
+          <option v-for="brand in brands" :key="brand" :value="brand">
+            {{ brand }}
+          </option>
+        </select>
+      </div>
+      <span class="separator">|</span>
+      <input type="text" v-model="searchQuery" placeholder="e.g. AbbadonBlack" />
     </div>
+    <button @click="search">Search</button>
     <database-component
       v-if="showDatabaseComponent"
       ref="databaseComponent"
       :searchQuery="searchQuery"
+      :brandFilter="selectedBrand"
     ></database-component>
   </div>
 </template>
@@ -25,8 +35,10 @@ export default {
   data() {
     return {
       searchQuery: "",
+      selectedBrand: "", // Initially set to empty for All Brands
       showDatabaseComponent: false, // Initially set to false
       searchResults: [], // Array to store search results
+      brands: ["Citadel", "Vallejo Game", "Vallejo Model", "Army Painter", "P3 Formula"], // Add your list of brands here
     };
   },
   methods: {
@@ -38,6 +50,7 @@ export default {
 
       // Implement your search logic here
       console.log("Search query:", this.searchQuery);
+      console.log("Brand filter:", this.selectedBrand);
 
       // Perform your search operation based on the search query
       // For example, you can filter the data from your database component based on the search query
@@ -67,7 +80,10 @@ export default {
 .logo {
   margin-bottom: 20px;
 }
-
+.logo img {
+  width: auto; /* Adjust the width as needed */
+  height: 200%; /* Adjust the height as needed */
+}
 .background-image {
   position: absolute;
   top: 0;
@@ -78,26 +94,51 @@ export default {
   background-size: cover;
   background-position: center;
   opacity: 0.2;
-  pointer-events: none; /* Add this property */
+  pointer-events: none; /* Making sure that the image cannot be interacted with */
 }
 
 .search-bar {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   position: relative; /* Add position relative */
   z-index: 1; /* Set a higher z-index value */
 }
 
+.brand-filter {
+  display: flex;
+  align-items: center;
+}
+#brand-select {
+  font-size: 100%;
+  color: #333;
+ 
+  padding: 8px;
+  border-radius: 10px; /* Adjust the value to change the level of rounding */
+}
+
+.separator {
+  font-size: 3vh;
+  display: flex;
+  margin: 0 10px;
+  color: white;
+  font-weight: bold;
+}
+
 input[type="text"] {
   padding: 8px;
-  font-size: 16px;
-  margin-bottom: 10px;
+  font-size: 1.75vh;
+  border-radius: 10px;
 }
 
 button {
+  margin-top: 10px;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 1.75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
 }
 </style>

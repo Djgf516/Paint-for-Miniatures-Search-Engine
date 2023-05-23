@@ -35,8 +35,10 @@ export default {
   methods: {
     // Call the paintService to fetch data
     fetchData() {
+      //Remove any spaces from the query
+      const cleanedQuery = this.searchQuery.replace(/\s/g, '');
       paintService
-        .getPaints(this.searchQuery)
+        .getPaints(cleanedQuery)
         .then((paints) => {
           this.paints = paints;
         })
@@ -57,7 +59,7 @@ export default {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(
-    3,
+   5,
     1fr
   ); /* Adjust the number of columns as needed */
   grid-gap: 10px; /* Adjust the gap between boxes as needed */
@@ -68,6 +70,7 @@ export default {
   flex-direction: column;
   align-items: center;
   background-color: #000;
+ /* border: 1px solid white;(for testing purposes)*/ 
 }
 
 .box {
@@ -81,6 +84,7 @@ export default {
 }
 
 .paint-name {
+    font-size: 2vh;
   font-weight: bold;
   color:white
 }
@@ -91,7 +95,7 @@ export default {
 }
 
 .hex-code {
-  font-size: 12px;
+  font-size: 1.75vh;
   color: white;
 }
 </style>
