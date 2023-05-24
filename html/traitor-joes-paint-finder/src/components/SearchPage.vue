@@ -21,18 +21,17 @@
         placeholder="e.g. AbbadonBlack"
       />
       <span class="separator">|</span>
-    <!--
+      <!--
       <input type="checkbox" v-model="findMatches" /> 
        <label> Find matches?</label>
        -->
-    <div class="checkboxes">
-      <input type="checkbox" v-model="searchByHexCode" />
-      <label>Hex Color Code</label>
+      <div class="checkboxes">
+        <input type="checkbox" v-model="searchByHexCode" />
+        <label>Hex Color Code</label>
+      </div>
     </div>
-    </div>
-    
-
     <button @click="search">Search</button>
+    <button @click="reset">Reset</button>
     <database-component
       v-if="showDatabaseComponent"
       ref="databaseComponent"
@@ -81,6 +80,12 @@ export default {
       setTimeout(() => {
         this.showDatabaseComponent = true;
       }, 500);
+    },
+    reset() {
+      this.searchQuery = "";
+      this.selectedBrand = "";
+      this.showDatabaseComponent = false;
+      this.searchResults = [];
     },
   },
   components: {
@@ -165,6 +170,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+   flex-direction: row;
   border-radius: 10px;
 }
 </style>
