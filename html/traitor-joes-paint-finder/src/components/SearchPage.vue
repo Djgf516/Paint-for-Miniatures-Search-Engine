@@ -15,8 +15,23 @@
         </select>
       </div>
       <span class="separator">|</span>
-      <input type="text" v-model="searchQuery" placeholder="e.g. AbbadonBlack" />
+      <input
+        type="text"
+        v-model="searchQuery"
+        placeholder="e.g. AbbadonBlack"
+      />
+      <span class="separator">|</span>
+    <!--
+      <input type="checkbox" v-model="findMatches" /> 
+       <label> Find matches?</label>
+       -->
+    <div class="checkboxes">
+      <input type="checkbox" v-model="searchByHexCode" />
+      <label>Hex Color Code</label>
     </div>
+    </div>
+    
+
     <button @click="search">Search</button>
     <database-component
       v-if="showDatabaseComponent"
@@ -38,7 +53,15 @@ export default {
       selectedBrand: "", // Initially set to empty for All Brands
       showDatabaseComponent: false, // Initially set to false
       searchResults: [], // Array to store search results
-      brands: ["Citadel", "Vallejo Game", "Vallejo Model", "Army Painter", "P3 Formula"], // Add your list of brands here
+      brands: [
+        "Citadel",
+        "Vallejo Game",
+        "Vallejo Model",
+        "Army Painter",
+        "P3 Formula",
+      ], // Add your list of brands here
+      findMatches: false, // Initially set to false
+      searchByHexCode: false, // Initially set to false
     };
   },
   methods: {
@@ -113,7 +136,7 @@ export default {
 #brand-select {
   font-size: 100%;
   color: #333;
- 
+
   padding: 8px;
   border-radius: 10px; /* Adjust the value to change the level of rounding */
 }
@@ -130,6 +153,9 @@ input[type="text"] {
   padding: 8px;
   font-size: 1.75vh;
   border-radius: 10px;
+}
+.checkboxes {
+  color: white;
 }
 
 button {
