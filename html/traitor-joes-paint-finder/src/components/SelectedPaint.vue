@@ -2,7 +2,10 @@
   <div class="paint-info-selected">
     <h1>Selected Paint</h1>
     <div class="hex-code">
-      <div class="color-box" :style="{ backgroundColor: selectedPaint.hexColorCode }"></div>
+      <div
+        class="color-box"
+        :style="{ backgroundColor: selectedPaint.hexColorCode }"
+      ></div>
     </div>
     <p class="paint-code">{{ selectedPaint.hexColorCode }}</p>
     <p class="paint-name">{{ selectedPaint.paintName }}</p>
@@ -36,16 +39,29 @@ export default {
   },
   methods: {
     fetchMatches(selectedPaint) {
-      if (this.displayMatches)  {
+      if (this.displayMatches) {
+        let cleanName = selectedPaint.paintName.replace(/\s/g, "");
         paintService
-          .getMatches(selectedPaint.id) // Replace with the appropriate method and parameters for fetching matches
+          .getMatches(cleanName) // Pass the paint name as the search query
           .then((matches) => {
-            matches;
             // Handle the fetched matches
+            console.log(matches); // log the matches to the console
           })
           .catch((error) => {
-            console.error(error);
-            throw error;
+            if (error.response) {
+              // error.response exists
+              // Request was made, but response has error status (4xx or 5xx)
+            } if(error.response.status > 500){
+                throw new Error("Response Paint name not found in database");
+            }
+            
+            else if (error.request) {
+              // There is no error.response, but error.request exists
+              // Request was made, but no response was received
+            } else {
+              // Neither error.response and error.request exist
+              // Request was *not* made
+            }
           });
       }
     },
@@ -79,7 +95,4 @@ export default {
   display: block;
   margin-top: 10px;
 }
-
-
-
 </style>
