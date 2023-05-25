@@ -18,10 +18,18 @@
           <p class="paint-code">{{ paint.hexColorCode }}</p>
           <p class="paint-name">{{ paint.paintName }}</p>
           <p class="paint-brand">{{ paint.brandName }}</p>
+          <!-- Display paint.matchValue when it exists -->
+          <p v-if="paint.matchValue" class="paint-match">
+            {{ paint.matchValue }}
+          </p>
         </div>
       </div>
     </div>
-    <SelectedPaint v-if="selectedPaint" :selectedPaint="selectedPaint" />
+    <SelectedPaint
+      v-if="selectedPaint"
+      :selectedPaint="selectedPaint"
+      @update-paints="updatePaints"
+    />
   </div>
 </template>
 
@@ -69,6 +77,13 @@ export default {
     },
     selectPaint(paint) {
       this.selectedPaint = paint;
+    }, // Add a new method to update the paints array
+    updatePaints(matches) {
+      // Update the paints array with the fetched matches and add paint.matchValue
+      this.paints = matches.map((match) => ({
+        ...match,
+        matchValue: match.matchValue, // Add paint.matchValue property
+      }));
     },
   },
 };
@@ -103,6 +118,7 @@ export default {
 
 .paint-info {
   text-align: center;
+  color: white;
 }
 
 .paint-name {

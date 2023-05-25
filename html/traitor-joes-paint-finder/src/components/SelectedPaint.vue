@@ -44,8 +44,8 @@ export default {
         paintService
           .getMatches(cleanName) // Pass the paint name as the search query
           .then((matches) => {
-            // Handle the fetched matches
-            console.log(matches); // log the matches to the console
+            // Update the paints array in the parent component with the fetched matches
+            this.$emit("update-paints", matches);
           })
           .catch((error) => {
             if (error.response) {
